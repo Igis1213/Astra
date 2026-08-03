@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Astra — 퀀트 실운용 성과</title>
+<meta name="description" content="S&P500 퀀트 전략의 실운용 수익률. 서버가 매 세션 갱신합니다.">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-brand">Astra<span>.</span></div>
+      <a href="index.html" aria-current="page">대시보드</a>
+      <a href="https://github.com/Igis1213/Astra" target="_blank" rel="noopener">소스</a>
+    </div>
+  </nav>
+  <main class="wrap" id="app">
+    <div class="card empty text-muted"><h4>불러오는 중…</h4></div>
+  </main>
+  <script src="assets/app.js"></script>
+  <script>
+    // 공개 뷰: 금액·수량은 애초에 데이터에 없다(export_web 기본값).
+    Astra.render({ dataDir: 'data', showAmounts: false });
+  </script>
+</body>
+</html>
