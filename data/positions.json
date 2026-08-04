@@ -10,22 +10,17 @@
         "symbols": {}
       },
       {
-        "axis": "수익성",
+        "axis": "과거",
         "portfolio": null,
         "symbols": {}
       },
       {
-        "axis": "마진",
+        "axis": "재무",
         "portfolio": null,
         "symbols": {}
       },
       {
-        "axis": "투자규율",
-        "portfolio": null,
-        "symbols": {}
-      },
-      {
-        "axis": "모멘텀",
+        "axis": "배당",
         "portfolio": null,
         "symbols": {}
       }
@@ -34,6 +29,9 @@
   "dividends": {
     "rows": [],
     "portfolio_yield_pct": null,
-    "recent": []
+    "recent": [],
+    "history_monthly": [],
+    "history_yearly": [],
+    "change_vs_prior_pct": null
   }
 }

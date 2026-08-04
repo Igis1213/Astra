@@ -3,27 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Astra — 퀀트 실운용 성과</title>
-<meta name="description" content="S&P500 퀀트 전략의 실운용 수익률. 서버가 매 세션 갱신합니다.">
+<title>Astra — 퀀트 포트폴리오</title>
+<meta name="description" content="S&P500 팩터 전략의 실운용 성과. 서버가 매 세션 갱신합니다.">
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
   <nav class="nav">
     <div class="nav-inner">
-      <div class="nav-brand">Astra<span>.</span></div>
-      <a href="index.html" aria-current="page">대시보드</a>
-      <a href="https://github.com/Igis1213/Astra" target="_blank" rel="noopener">소스</a>
+      <a class="nav-brand" href="#/">Astra<span>.</span></a>
+      <div id="nav-links" class="nav-links"></div>
+      <a class="nav-ext" href="https://github.com/Igis1213/Astra" target="_blank"
+         rel="noopener">소스</a>
     </div>
   </nav>
   <main class="wrap" id="app">
     <div class="card empty text-muted"><h4>불러오는 중…</h4></div>
   </main>
+  <footer class="wrap foot text-muted">
+    Astra · 개인 계좌 자동매매 기록 · 투자 권유가 아닙니다.
+  </footer>
   <script src="assets/app.js"></script>
   <script>
-    // 대시보드는 이것 하나다. 노출하면 안 되는 것은 데이터 단계에서 뺀다 —
-    // 수량·평가금액·수수료는 JSON에 아예 없고 총자산은 시작=100 지수다.
-    // ?data=local 로 로컬 데모 데이터를 볼 수 있다(개발용, 배포엔 영향 없음).
-    Astra.render({ dataDir: new URLSearchParams(location.search).get('data') || 'data' });
+    // 노출하면 안 되는 것은 화면이 아니라 데이터 단계에서 뺀다 — 수량·평가금액·수수료는
+    // JSON에 아예 없고 총자산은 시작=100 지수다. ?data=local 은 개발용 데모 경로.
+    Astra.start({ dataDir: new URLSearchParams(location.search).get('data') || 'data' });
   </script>
 </body>
 </html>
