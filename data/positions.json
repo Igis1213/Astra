@@ -1,4 +1,39 @@
 {
   "rows": [],
-  "sectors": []
+  "sectors": [],
+  "industries": [],
+  "factors": {
+    "axes": [
+      {
+        "axis": "가치",
+        "portfolio": null,
+        "symbols": {}
+      },
+      {
+        "axis": "수익성",
+        "portfolio": null,
+        "symbols": {}
+      },
+      {
+        "axis": "마진",
+        "portfolio": null,
+        "symbols": {}
+      },
+      {
+        "axis": "투자규율",
+        "portfolio": null,
+        "symbols": {}
+      },
+      {
+        "axis": "모멘텀",
+        "portfolio": null,
+        "symbols": {}
+      }
+    ]
+  },
+  "dividends": {
+    "rows": [],
+    "portfolio_yield_pct": null,
+    "recent": []
+  }
 }

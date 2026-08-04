@@ -20,8 +20,10 @@
   </main>
   <script src="assets/app.js"></script>
   <script>
-    // 공개 뷰: 금액·수량은 애초에 데이터에 없다(export_web 기본값).
-    Astra.render({ dataDir: 'data', showAmounts: false });
+    // 대시보드는 이것 하나다. 노출하면 안 되는 것은 데이터 단계에서 뺀다 —
+    // 수량·평가금액·수수료는 JSON에 아예 없고 총자산은 시작=100 지수다.
+    // ?data=local 로 로컬 데모 데이터를 볼 수 있다(개발용, 배포엔 영향 없음).
+    Astra.render({ dataDir: new URLSearchParams(location.search).get('data') || 'data' });
   </script>
 </body>
 </html>
