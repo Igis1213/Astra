@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-08-04T03:23:46Z",
+  "generated_at": "2026-08-12T05:21:16Z",
   "with_amounts": false,
   "n_positions": 0,
   "n_trades": 0,
   "strategies": [],
   "periods": [],
-  "strategy": {}
+  "strategy": {
+    "US": {
+      "market": "US",
+      "champion": "us_st_all10_pnp_n30",
+      "alpha": "sleeve",
+      "lookback": 0,
+      "top_n": 30,
+      "rebalance": "monthly",
+      "weighting": "conviction",
+      "universe_size": 643
+    }
+  }
 }

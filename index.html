@@ -5,26 +5,117 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Astra — 퀀트 포트폴리오</title>
 <meta name="description" content="S&P500 팩터 전략의 실운용 성과. 서버가 매 세션 갱신합니다.">
-<link rel="stylesheet" href="assets/app.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // Play CDN는 런타임 컴파일이라 config를 스크립트로 준다. 빌드 스텝을 안 만들기로 한
+  // 선택의 대가다 — 초기 페인트가 한 박자 늦다.
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: { 950: '#050914', 900: '#070D1F', 850: '#0A1128', 800: '#0D1631',
+                  700: '#132048', 600: '#1B2C5E', 500: '#2A3E7A' },
+          gold: { 300: '#E5D2A3', 400: '#D9BE7E', 500: '#C8A96A', 600: '#A98A4C' },
+          up:   '#34D399',
+          down: '#E5705F',
+        },
+        fontFamily: {
+          serif: ['"Noto Serif KR"', 'Georgia', 'serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+          mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+        },
+        keyframes: {
+          ticker: { '0%': { transform: 'translateX(0)' },
+                    '100%': { transform: 'translateX(-50%)' } },
+          rise: { '0%': { strokeDashoffset: 1400 }, '100%': { strokeDashoffset: 0 } },
+        },
+        animation: { ticker: 'ticker 48s linear infinite', rise: 'rise 2.4s ease-out forwards' },
+        boxShadow: {
+          'inset-hair': 'inset 0 1px 0 0 rgba(255,255,255,.06)',
+          'glass': 'inset 0 1px 0 0 rgba(255,255,255,.07), 0 8px 32px rgba(0,0,0,.45)',
+          'gold-glow': '0 0 0 1px rgba(200,169,106,.35), 0 8px 28px rgba(200,169,106,.14)',
+        },
+      },
+    },
+  };
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { background: #070D1F; }
+  /* 티커·표는 가로 스크롤이 나는 자리라 스크롤바만 지면에 맞춘다. */
+  .thin-scroll::-webkit-scrollbar { height: 6px; width: 6px; }
+  .thin-scroll::-webkit-scrollbar-thumb { background: #1B2C5E; border-radius: 3px; }
+  .thin-scroll::-webkit-scrollbar-track { background: transparent; }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-ticker, .animate-rise { animation: none !important; }
+  }
+  /* 노트 본문. Tailwind typography 플러그인은 Play CDN에 없어서 직접 준다. */
+  .md-body { color: #cbd5e1; font-size: 14.5px; line-height: 1.85; }
+  .md-body > * + * { margin-top: 1em; }
+  .md-body h2, .md-body h3, .md-body h4 {
+    font-family: "Noto Serif KR", Georgia, serif; color: #f1f5f9;
+    letter-spacing: -.01em; margin-top: 1.9em; margin-bottom: .6em; line-height: 1.35;
+  }
+  .md-body h2 { font-size: 20px; padding-bottom: .35em; border-bottom: 1px solid rgba(255,255,255,.08); }
+  .md-body h3 { font-size: 16.5px; }
+  .md-body h4 { font-size: 14.5px; color: #C8A96A; }
+  .md-body a { color: #E5D2A3; text-decoration: underline; text-underline-offset: 3px; }
+  .md-body strong { color: #f1f5f9; font-weight: 600; }
+  .md-body ul, .md-body ol { padding-left: 1.35em; }
+  .md-body li { margin-top: .35em; }
+  .md-body ul { list-style: disc; }
+  .md-body ol { list-style: decimal; }
+  .md-body code {
+    font-family: "JetBrains Mono", monospace; font-size: .88em; color: #E5D2A3;
+    background: rgba(255,255,255,.06); padding: .12em .4em; border-radius: 4px;
+  }
+  .md-body pre {
+    background: #050914; border: 1px solid rgba(255,255,255,.08); border-radius: 12px;
+    padding: 14px 16px; overflow-x: auto; font-size: 12.5px;
+  }
+  .md-body pre code { background: none; padding: 0; color: #cbd5e1; }
+  .md-body blockquote {
+    border-left: 2px solid rgba(200,169,106,.5); padding-left: 14px; color: #94a3b8;
+  }
+  .md-body table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .md-body th, .md-body td {
+    border-bottom: 1px solid rgba(255,255,255,.08); padding: 7px 8px; text-align: left;
+  }
+  .md-body th { color: #64748b; font-weight: 500; font-size: 11px;
+    text-transform: uppercase; letter-spacing: .08em; }
+  .md-body td:not(:first-child), .md-body th:not(:first-child) {
+    text-align: right; font-family: "JetBrains Mono", monospace; font-variant-numeric: tabular-nums;
+  }
+  .md-body hr { border: 0; border-top: 1px solid rgba(255,255,255,.08); margin: 2em 0; }
+  .md-body img { max-width: 100%; border-radius: 10px; }
+
+  /* Recharts가 focus 시 그리는 파란 아웃라인 제거 */
+  .recharts-wrapper:focus, .recharts-surface:focus { outline: none; }
+</style>
 </head>
-<body>
-  <nav class="nav">
-    <div class="nav-inner">
-      <a class="nav-brand" href="#/">Astra<span>.</span></a>
-      <div id="nav-links" class="nav-links"></div>
-    </div>
-  </nav>
-  <main class="wrap" id="app">
-    <div class="card empty text-muted"><h4>불러오는 중…</h4></div>
-  </main>
-  <footer class="wrap foot text-muted">
-    Astra · 개인 계좌 자동매매 기록 · 투자 권유가 아닙니다.
-  </footer>
-  <script src="assets/app.js"></script>
+<body class="bg-navy-900 text-slate-200 font-sans antialiased">
+  <div id="root">
+    <div class="flex min-h-screen items-center justify-center text-sm text-slate-500">불러오는 중…</div>
+  </div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/prop-types@15.8.1/prop-types.min.js" crossorigin></script>
+  <script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.js" crossorigin></script>
+  <!-- lucide-react UMD는 소문자 window.react를 외부 의존성으로 찾는다. 별칭이 없으면
+       undefined.forwardRef로 터진다. -->
+  <script>window.react = window.React;</script>
+  <script src="https://unpkg.com/lucide-react@0.436.0/dist/umd/lucide-react.js" crossorigin></script>
+  <script src="https://unpkg.com/marked@14.1.2/marked.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js" crossorigin></script>
   <script>
     // 노출하면 안 되는 것은 화면이 아니라 데이터 단계에서 뺀다 — 수량·평가금액·수수료는
     // JSON에 아예 없고 총자산은 시작=100 지수다. ?data=local 은 개발용 데모 경로.
-    Astra.start({ dataDir: new URLSearchParams(location.search).get('data') || 'data' });
+    window.ASTRA_DATA_DIR = new URLSearchParams(location.search).get('data') || 'data';
   </script>
+  <script type="text/babel" data-presets="react" src="assets/app.jsx"></script>
 </body>
 </html>
