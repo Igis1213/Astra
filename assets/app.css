@@ -249,7 +249,6 @@ a:hover { color: var(--color-accent); }
 .nav-links a:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
 .nav-links a[aria-current='page'] { color: var(--color-accent);
   background: color-mix(in srgb, var(--color-accent) 13%, transparent); }
-.nav-ext { font-size: 12.5px; opacity: .6; }
 a.nav-brand { color: inherit; }
 
 .tabbar { display: flex; gap: 2px; margin-bottom: 14px; overflow-x: auto;
