@@ -236,7 +236,7 @@ const rebase = (pts) => {
  */
 function EquityChart({ data, range, height = 300 }) {
   const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-    Legend, ReferenceLine } = RC;
+    ReferenceLine } = RC;
   const series = (data.equity?.series || [])[0];
   const bm = (data.equity?.benchmarks || [])[0];
   const days = (RANGES.find((r) => r[0] === range) || RANGES[4])[1];
@@ -260,6 +260,16 @@ function EquityChart({ data, range, height = 300 }) {
   const hasBm = rows.some((r) => r.benchmark != null);
   return (
     <>
+      <div className="mb-1.5 flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-[11px]">
+        <span className="flex items-center gap-1.5 text-slate-400">
+          <i className="h-0.5 w-4 rounded-full bg-gold-400" />전략 {series.strategy || ''}
+        </span>
+        {hasBm && (
+          <span className="flex items-center gap-1.5 text-slate-500">
+            <i className="h-0.5 w-4 rounded-full bg-slate-500" />{bm?.name || '벤치마크'}
+          </span>
+        )}
+      </div>
       <ResponsiveContainer width="100%" height={height}>
         <LineChart data={rows} margin={{ top: 6, right: 6, bottom: 0, left: -14 }}>
           <defs>
@@ -276,11 +286,6 @@ function EquityChart({ data, range, height = 300 }) {
           <ReferenceLine y={100} stroke={GRID} strokeDasharray="3 3" />
           <Tooltip {...TIP}
             formatter={(v, n) => [nf(v, 2), n === 'strategy' ? '전략' : (bm?.name || '벤치마크')]} />
-          <Legend verticalAlign="top" height={26} iconType="plainline" formatter={(v) => (
-            <span className="font-mono text-[11px] text-slate-400">
-              {v === 'strategy' ? `전략 ${series.strategy || ''}` : (bm?.name || '벤치마크')}
-            </span>
-          )} />
           {hasBm && (
             <Line type="monotone" dataKey="benchmark" stroke="#64748B" strokeWidth={1.4}
               strokeDasharray="4 3" dot={false} connectNulls isAnimationActive={false} />
@@ -441,10 +446,10 @@ function Waterfall({ contrib, height = 220 }) {
 
   return (
     <ResponsiveContainer width="100%" height={height}>
-      <BarChart data={steps} margin={{ top: 6, right: 6, bottom: 0, left: -16 }}>
+      <BarChart data={steps} margin={{ top: 6, right: 6, bottom: 12, left: -16 }}>
         <CartesianGrid stroke={GRID} strokeDasharray="2 4" vertical={false} />
         <XAxis dataKey="sym" tick={{ fill: AXIS, fontSize: 9.5 }} tickLine={false}
-          axisLine={{ stroke: GRID }} interval={0} />
+          axisLine={{ stroke: GRID }} interval={0} angle={-45} textAnchor="end" height={44} />
         <YAxis tick={{ fill: AXIS, fontSize: 10 }} tickLine={false} axisLine={false}
           width={44} tickFormatter={(v) => nf(v, 1)} />
         <ReferenceLine y={0} stroke="#2A3E7A" />
@@ -490,7 +495,7 @@ function TickerBar({ data }) {
     <div className="relative overflow-hidden border-b border-white/[0.06] bg-navy-950/80">
       <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-navy-950 to-transparent" />
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-navy-950 to-transparent" />
-      <div className="flex w-max animate-ticker items-center gap-6 py-1.5">
+      <div className="ticker-lane flex w-max animate-ticker items-center gap-6 py-1.5">
         {lane.map((it, i) => (
           <span key={i} className="flex items-center gap-1.5 whitespace-nowrap font-mono text-[10.5px]">
             <span className="text-slate-500">{it.k}</span>
@@ -793,19 +798,12 @@ function PageHome({ data }) {
         <KpiRow items={[
           { label: '누적 지수 (시작=100)', value: nf(lastIndex, 1), tone: 'text-gold-300',
             sub: '금액 대신 지수 — 계좌 잔고 비공개' },
-          { label: '설정 이후 누적', value: pct(s?.total_return_pct), tone: sc(s?.total_return_pct) },
+          { label: '설정 이후 누적', value: pct(s?.total_return_pct), tone: sc(s?.total_return_pct),
+            sub: `S&P500 대비 ${pp(all?.excess_pp)}` },
           { label: '연평균 수익률 (CAGR)', value: pct(s?.cagr_pct), tone: sc(s?.cagr_pct),
             sub: '입출금 기록이 없어 IRR 대신 CAGR' },
-          { label: '운용 기간', value: days == null ? '—' : `${days}일`,
-            sub: `보유 종목 ${rows.length}` },
-        ]} />
-        <KpiRow items={[
-          { label: '1일 수익률', value: pct(s?.day_return_pct), tone: sc(s?.day_return_pct) },
-          { label: '초과수익 (설정 이후)', value: pp(all?.excess_pp), tone: sc(all?.excess_pp),
-            sub: 'S&P500 대비' },
-          { label: '벤치마크', value: (data.equity?.benchmarks || [])[0]?.name || 'SPY',
-            sub: '배당재투자 ETF' },
-          { label: '보유 종목', value: String(rows.length) },
+          { label: '1일 수익률', value: pct(s?.day_return_pct), tone: sc(s?.day_return_pct),
+            sub: `운용 ${days == null ? '—' : `${days}일`} · 보유 ${rows.length}종목` },
         ]} />
 
         <Split
@@ -1500,6 +1498,13 @@ const Footer = () => (
   </footer>
 );
 
+/** 라우트 → 문서 제목. 노트 상세는 슬러그밖에 모르니 섹션 이름까지만 준다. */
+const TITLES = (r) => (
+  r.startsWith('/dashboard') ? '성과 대시보드'
+    : r.startsWith('/notes') ? '리서치 노트'
+      : r.startsWith('/philosophy') || r.startsWith('/report') ? '투자 철학'
+        : '퀀트 포트폴리오');
+
 function App() {
   const [data, setData] = useState(null);
   const [route, setRoute] = useState(() => location.hash.replace(/^#/, '') || '/');
@@ -1513,6 +1518,7 @@ function App() {
     window.addEventListener('hashchange', on);
     return () => window.removeEventListener('hashchange', on);
   }, []);
+  useEffect(() => { document.title = `${TITLES(route)} — Astra`; }, [route]);
 
   if (!data) {
     return (
@@ -1552,9 +1558,12 @@ function App() {
 
   return (
     <div className="min-h-screen">
+      <a href="#main" className="skip-link rounded-lg border border-gold-500/50 bg-navy-950 px-3 py-2 text-[13px] text-gold-300">
+        본문 바로가기
+      </a>
       <TickerBar data={data} />
       <Nav route={route} />
-      <main>{page}</main>
+      <main id="main">{page}</main>
       <Footer />
     </div>
   );

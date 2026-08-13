@@ -21,6 +21,9 @@
           gold: { 300: '#E5D2A3', 400: '#D9BE7E', 500: '#C8A96A', 600: '#A98A4C' },
           up:   '#34D399',
           down: '#E5705F',
+          // 기본 slate는 navy-900 위에서 600=2.55:1, 500=4.06:1로 AA(4.5) 미달이다.
+          // 텍스트 전용으로만 쓰는 3단이라 여기서 한 번에 올린다 → 4.7/6.1/7.5:1.
+          slate: { 600: '#6F7F96', 500: '#8592A6', 400: '#94A3B8' },
         },
         fontFamily: {
           serif: ['"Noto Serif KR"', 'Georgia', 'serif'],
@@ -84,7 +87,7 @@
   .md-body th, .md-body td {
     border-bottom: 1px solid rgba(255,255,255,.08); padding: 7px 8px; text-align: left;
   }
-  .md-body th { color: #64748b; font-weight: 500; font-size: 11px;
+  .md-body th { color: #8592A6; font-weight: 500; font-size: 11px;
     text-transform: uppercase; letter-spacing: .08em; }
   .md-body td:not(:first-child), .md-body th:not(:first-child) {
     text-align: right; font-family: "JetBrains Mono", monospace; font-variant-numeric: tabular-nums;
@@ -94,6 +97,16 @@
 
   /* Recharts가 focus 시 그리는 파란 아웃라인 제거 */
   .recharts-wrapper:focus, .recharts-surface:focus { outline: none; }
+
+  /* 키보드 이동 시 지금 어디인지 보이는 자리가 없었다. 금색 링 하나로 전역 처리. */
+  :focus-visible {
+    outline: 2px solid #C8A96A; outline-offset: 2px; border-radius: 6px;
+  }
+  /* 티커는 값을 흘리는 줄이라 읽으려면 멈출 수 있어야 한다. */
+  .ticker-lane:hover, .ticker-lane:focus-within { animation-play-state: paused; }
+  /* 본문 바로가기 — 평소엔 화면 밖, 탭하면 들어온다. */
+  .skip-link { position: absolute; left: 8px; top: -60px; z-index: 60; transition: top .15s; }
+  .skip-link:focus { top: 8px; }
 </style>
 </head>
 <body class="bg-navy-900 text-slate-200 font-sans antialiased">
