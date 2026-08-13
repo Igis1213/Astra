@@ -210,7 +210,7 @@ const TIP = {
     borderRadius: 10, fontSize: 12, boxShadow: '0 8px 28px rgba(0,0,0,.5)',
   },
   labelStyle: { color: '#94A3B8', fontSize: 11 },
-  itemStyle: { fontFamily: 'JetBrains Mono, monospace' },
+  itemStyle: { fontFamily: 'JetBrains Mono, monospace', color: '#E2E8F0' },
 };
 
 const RANGES = [['1M', 30], ['3M', 91], ['YTD', null], ['1Y', 365], ['ALL', Infinity]];
@@ -331,7 +331,7 @@ function Donut({ rows, dataKey, nameKey, height = 208 }) {
           </PieChart>
         </ResponsiveContainer>
       </div>
-      <ul className="flex w-full flex-col gap-1.5">
+      <ul className="flex w-full min-w-0 flex-1 flex-col gap-1.5">
         {rows.slice(0, 8).map((r, i) => (
           <li key={i} className="flex items-center gap-2 text-[12px]">
             <i className="h-2 w-2 shrink-0 rounded-full"
@@ -350,6 +350,7 @@ function RadarProfile({ data, height = 240 }) {
   const { RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar,
     ResponsiveContainer, Tooltip } = RC;
   const axes = (data.positions?.factors?.axes || []).filter((a) => a.portfolio != null);
+  const n = axes[0]?.universe_n;
   if (axes.length < 3) {
     return <div className="text-[12px] text-slate-500">재무 데이터가 모이면 표시됩니다.</div>;
   }
@@ -367,9 +368,9 @@ function RadarProfile({ data, height = 240 }) {
         </RadarChart>
       </ResponsiveContainer>
       <p className="mt-2 text-[11px] leading-relaxed text-slate-500">
-        보유 종목 <b className="text-slate-300">안에서의</b> 상대 백분위(0~100). 시장 전체 대비
-        절대 점수가 아니다. 원본의 <b className="text-slate-300">미래</b> 축은 실적 전망
-        데이터가 없어 제외했다.
+        <b className="text-slate-300">S&amp;P500 유니버스{n ? ` ${n}종목` : ''} 안에서의</b> 비중가중
+        백분위(0~100). 50이면 시장 중간, 높을수록 그 팩터에 기울어 있다. 원본의{' '}
+        <b className="text-slate-300">미래</b> 축은 실적 전망 데이터가 없어 제외했다.
       </p>
     </>
   );
@@ -455,7 +456,7 @@ function Waterfall({ contrib, height = 220 }) {
         <ReferenceLine y={0} stroke="#2A3E7A" />
         <Tooltip {...TIP} cursor={{ fill: 'rgba(255,255,255,.04)' }}
           formatter={(v, n, p) => [pct(p.payload.v), p.payload.total ? '누적 합계' : '기여도']} />
-        <Bar dataKey="base" stackId="w" fill="transparent" isAnimationActive={false} />
+        <Bar dataKey="base" stackId="w" fill="transparent" tooltipType="none" isAnimationActive={false} />
         <Bar dataKey="delta" stackId="w" radius={[2, 2, 0, 0]} isAnimationActive={false}>
           {steps.map((s, i) => (
             <Cell key={i} fill={s.total ? GOLD : (s.v >= 0 ? UP : DOWN)}
