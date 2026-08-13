@@ -1,4 +1,23 @@
 {
-  "series": [],
+  "series": [
+    {
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "points": [
+        {
+          "ts": "2026-08-10T20:35:34Z",
+          "index": 100.0
+        },
+        {
+          "ts": "2026-08-13T02:30:33Z",
+          "index": 98.8414
+        },
+        {
+          "ts": "2026-08-13T02:36:10Z",
+          "index": 98.8414
+        }
+      ]
+    }
+  ],
   "benchmarks": []
 }
