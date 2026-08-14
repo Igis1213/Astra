@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T07:48:06Z",
+  "generated_at": "2026-08-14T04:31:44Z",
   "with_amounts": false,
   "n_positions": 30,
   "n_trades": 31,
@@ -8,55 +8,65 @@
       "market": "US",
       "strategy": "us_ctl_notech_n30",
       "start": "2026-08-10T20:35:34Z",
-      "last": "2026-08-13T02:36:10Z",
-      "n_snapshots": 3,
-      "total_return_pct": -1.159,
-      "day_return_pct": 0.0,
+      "last": "2026-08-13T13:33:02Z",
+      "n_snapshots": 4,
+      "total_return_pct": -1.837,
+      "day_return_pct": -0.686,
       "cagr_pct": null
     }
   ],
   "periods": [
     {
       "period": "1M",
-      "strategy_pct": -1.16,
+      "strategy_pct": -1.84,
       "benchmark_pct": null,
       "excess_pp": null
     },
     {
       "period": "3M",
-      "strategy_pct": -1.16,
+      "strategy_pct": -1.84,
       "benchmark_pct": null,
       "excess_pp": null
     },
     {
       "period": "YTD",
-      "strategy_pct": -1.16,
+      "strategy_pct": -1.84,
       "benchmark_pct": null,
       "excess_pp": null
     },
     {
       "period": "1Y",
-      "strategy_pct": -1.16,
+      "strategy_pct": -1.84,
       "benchmark_pct": null,
       "excess_pp": null
     },
     {
       "period": "전체",
-      "strategy_pct": -1.16,
+      "strategy_pct": -1.84,
       "benchmark_pct": null,
       "excess_pp": null
     }
   ],
   "strategy": {
+    "KR": {
+      "market": "KR",
+      "champion": "kr_meanrev_lb60_n3",
+      "alpha": "meanrev",
+      "lookback": 60,
+      "top_n": 3,
+      "rebalance": "weekly",
+      "weighting": null,
+      "universe_size": 101
+    },
     "US": {
       "market": "US",
-      "champion": "us_st_all10_pnp_n30",
+      "champion": "us_ctl_notech_n30",
       "alpha": "sleeve",
       "lookback": 0,
       "top_n": 30,
       "rebalance": "monthly",
       "weighting": "conviction",
-      "universe_size": 643
+      "universe_size": 631
     }
   }
 }
