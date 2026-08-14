@@ -649,8 +649,19 @@ const KV = ({ items }) => (
   </dl>
 );
 
+/**
+ * 실제로 운용 중인 시장의 전략 정보. registry에는 안 돌리는 시장 슬롯(KIS_MARKETS에서
+ * 뺀 KR 등)이 그대로 남아 있어, Object.values()[0] 을 쓰면 US 계좌인데 7월 KR 챔피언이
+ * 전략 노트에 뜬다(2026-08-14 확인). 성과가 기록된 시장을 진실로 삼는다.
+ */
+const stratInfo = (summary) => {
+  const all = summary?.strategy || {};
+  const mkt = (summary?.strategies || [])[0]?.market;
+  return (mkt && all[mkt]) || Object.values(all)[0] || {};
+};
+
 function StrategyCard({ data }) {
-  const info = Object.values(data.summary?.strategy || {})[0] || {};
+  const info = stratInfo(data.summary);
   const items = [['챔피언', info.champion], ['알파', info.alpha], ['보유 종목 수', info.top_n],
     ['룩백', info.lookback ? `${info.lookback}일` : null], ['리밸런싱', info.rebalance],
     ['비중 배분', info.weighting], ['유니버스', info.universe_size]]
@@ -710,7 +721,7 @@ const NoteList = ({ items, tone }) => (
 // ══ 페이지: 운용 개요(홈) ═══════════════════════════════════════════
 function PageHome({ data }) {
   const s = (data.summary?.strategies || [])[0];
-  const info = Object.values(data.summary?.strategy || {})[0] || {};
+  const info = stratInfo(data.summary);
   const all = (data.summary?.periods || []).find((p) => p.period === '전체');
   const rows = data.positions?.rows || [];
   const series = (data.equity?.series || [])[0];
