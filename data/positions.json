@@ -811,11 +811,11 @@
       },
       {
         "symbol": "SBUX",
-        "dps_ttm": 2.47,
-        "yield_pct": 2.294,
-        "yield_on_cost_pct": 2.323,
+        "dps_ttm": 1.86,
+        "yield_pct": 1.728,
+        "yield_on_cost_pct": 1.749,
         "weight_pct": 3.86,
-        "contribution_pct": 0.0885
+        "contribution_pct": 0.0667
       },
       {
         "symbol": "DD",
@@ -1010,7 +1010,7 @@
         "contribution_pct": null
       }
     ],
-    "portfolio_yield_pct": 1.017,
+    "portfolio_yield_pct": 0.995,
     "recent": [
       {
         "symbol": "CASY",
@@ -1441,6 +1441,6 @@
         "yield_pct": 0.0069
       }
     ],
-    "change_vs_prior_pct": 17.34
+    "change_vs_prior_pct": 12.32
   }
 }
