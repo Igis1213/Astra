@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T21:03:54Z",
+  "generated_at": "2026-08-19T21:00:55Z",
   "with_amounts": false,
   "n_positions": 30,
   "n_trades": 31,
@@ -8,41 +8,41 @@
       "market": "US",
       "strategy": "us_ctl_notech_n30",
       "start": "2026-08-10T20:35:34Z",
-      "last": "2026-08-18T13:31:55Z",
-      "n_snapshots": 7,
-      "total_return_pct": 1.139,
-      "day_return_pct": -0.237,
+      "last": "2026-08-19T13:32:08Z",
+      "n_snapshots": 8,
+      "total_return_pct": -0.334,
+      "day_return_pct": -1.456,
       "cagr_pct": null
     }
   ],
   "periods": [
     {
       "period": "1M",
-      "strategy_pct": 1.14,
+      "strategy_pct": -0.33,
       "benchmark_pct": null,
       "excess_pp": null
     },
     {
       "period": "3M",
-      "strategy_pct": 1.14,
+      "strategy_pct": -0.33,
       "benchmark_pct": null,
       "excess_pp": null
     },
     {
       "period": "YTD",
-      "strategy_pct": 1.14,
+      "strategy_pct": -0.33,
       "benchmark_pct": null,
       "excess_pp": null
     },
     {
       "period": "1Y",
-      "strategy_pct": 1.14,
+      "strategy_pct": -0.33,
       "benchmark_pct": null,
       "excess_pp": null
     },
     {
       "period": "전체",
-      "strategy_pct": 1.14,
+      "strategy_pct": -0.33,
       "benchmark_pct": null,
       "excess_pp": null
     }
