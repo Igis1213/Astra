@@ -4,17 +4,17 @@
       "symbol": "ALL",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 261.55,
-      "price": 256.37,
-      "unrealized_pct": -1.981,
+      "price": 260.19,
+      "unrealized_pct": -0.52,
       "weight_pct": 5.16,
       "name": "Allstate Corporation (The)",
       "sector": "Financial Services",
       "industry": "Insurance - Property & Casualty",
-      "day_return_pct": -0.082,
-      "per": 6.49,
+      "day_return_pct": 1.49,
+      "per": 6.59,
       "roe": 32.16,
-      "book_yield": 47.89,
-      "earnings_yield": 15.4,
+      "book_yield": 47.19,
+      "earnings_yield": 15.18,
       "asset_growth": 3.52,
       "gross_profit_asset": null
     },
@@ -22,17 +22,17 @@
       "symbol": "AMAT",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 551.2175,
-      "price": 495.01,
-      "unrealized_pct": -10.197,
+      "price": 484.19,
+      "unrealized_pct": -12.16,
       "weight_pct": 4.58,
       "name": "Applied Materials, Inc.",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "day_return_pct": 0.089,
-      "per": 56.16,
+      "day_return_pct": -2.186,
+      "per": 54.93,
       "roe": 29.27,
-      "book_yield": 6.08,
-      "earnings_yield": 1.78,
+      "book_yield": 6.22,
+      "earnings_yield": 1.82,
       "asset_growth": 7.02,
       "gross_profit_asset": 34.27
     },
@@ -40,17 +40,17 @@
       "symbol": "AMD",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 485.3576,
-      "price": 474.17,
-      "unrealized_pct": -2.305,
+      "price": 456.7967,
+      "unrealized_pct": -5.884,
       "weight_pct": 4.54,
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "day_return_pct": 0.481,
-      "per": 178.36,
+      "day_return_pct": -3.664,
+      "per": 171.82,
       "roe": 6.72,
-      "book_yield": 8.34,
-      "earnings_yield": 0.56,
+      "book_yield": 8.65,
+      "earnings_yield": 0.58,
       "asset_growth": 3.53,
       "gross_profit_asset": 21.54
     },
@@ -58,29 +58,29 @@
       "symbol": "MUR",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 35.47,
-      "price": 38.49,
-      "unrealized_pct": 8.514,
+      "price": 36.0,
+      "unrealized_pct": 1.494,
       "weight_pct": 4.35,
       "name": "Murphy Oil Corporation",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "day_return_pct": 1.664
+      "day_return_pct": -6.469
     },
     {
       "symbol": "CASY",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 830.035,
-      "price": 835.87,
-      "unrealized_pct": 0.703,
+      "price": 854.21,
+      "unrealized_pct": 2.913,
       "weight_pct": 4.31,
       "name": "Caseys General Stores, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Specialty Retail",
-      "day_return_pct": 2.112,
-      "per": 43.29,
+      "day_return_pct": 2.194,
+      "per": 44.24,
       "roe": 18.08,
-      "book_yield": 12.78,
-      "earnings_yield": 2.31,
+      "book_yield": 12.5,
+      "earnings_yield": 2.26,
       "asset_growth": 0.0,
       "gross_profit_asset": 24.0
     },
@@ -88,17 +88,17 @@
       "symbol": "SNDK",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 1330.9,
-      "price": 1594.39,
-      "unrealized_pct": 19.798,
+      "price": 1503.01,
+      "unrealized_pct": 12.932,
       "weight_pct": 4.15,
       "name": "Sandisk Corporation",
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "day_return_pct": 0.696,
+      "day_return_pct": -5.731,
       "per": null,
       "roe": -11.91,
-      "book_yield": 5.83,
-      "earnings_yield": -0.7,
+      "book_yield": 6.19,
+      "earnings_yield": -0.74,
       "asset_growth": 31.37,
       "gross_profit_asset": 12.95
     },
@@ -106,17 +106,17 @@
       "symbol": "DD",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 144.91,
-      "price": 140.245,
-      "unrealized_pct": -3.219,
+      "price": 136.67,
+      "unrealized_pct": -5.686,
       "weight_pct": 4.06,
       "name": "DuPont de Nemours, Inc.",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
-      "day_return_pct": 1.096,
-      "per": 653.29,
+      "day_return_pct": -2.549,
+      "per": 636.64,
       "roe": 0.63,
-      "book_yield": 24.42,
-      "earnings_yield": 0.15,
+      "book_yield": 25.06,
+      "earnings_yield": 0.16,
       "asset_growth": -0.58,
       "gross_profit_asset": 96.25
     },
@@ -124,29 +124,29 @@
       "symbol": "TE",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 5.46,
-      "price": 4.4144,
-      "unrealized_pct": -19.15,
+      "price": 4.34,
+      "unrealized_pct": -20.513,
       "weight_pct": 3.99,
       "name": "T1 Energy Inc.",
       "sector": "Industrials",
       "industry": "Electrical Equipment & Parts",
-      "day_return_pct": -3.721
+      "day_return_pct": -1.685
     },
     {
       "symbol": "SBUX",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 106.33,
-      "price": 104.13,
-      "unrealized_pct": -2.069,
+      "price": 107.49,
+      "unrealized_pct": 1.091,
       "weight_pct": 3.86,
       "name": "Starbucks Corporation",
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
-      "day_return_pct": 0.0,
-      "per": 63.95,
+      "day_return_pct": 3.227,
+      "per": 66.01,
       "roe": -24.19,
-      "book_yield": -6.46,
-      "earnings_yield": 1.56,
+      "book_yield": -6.26,
+      "earnings_yield": 1.51,
       "asset_growth": -7.41,
       "gross_profit_asset": 101.28
     },
@@ -154,17 +154,17 @@
       "symbol": "WDC",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 457.7,
-      "price": 473.87,
-      "unrealized_pct": 3.533,
+      "price": 436.0446,
+      "unrealized_pct": -4.731,
       "weight_pct": 3.8,
       "name": "Western Digital Corporation",
       "sector": "Technology",
       "industry": "Computer Hardware",
-      "day_return_pct": 2.193,
-      "per": 86.47,
+      "day_return_pct": -7.982,
+      "per": 79.56,
       "roe": 19.51,
-      "book_yield": 5.93,
-      "earnings_yield": 1.16,
+      "book_yield": 6.44,
+      "earnings_yield": 1.26,
       "asset_growth": -3.63,
       "gross_profit_asset": 24.54
     },
@@ -172,17 +172,17 @@
       "symbol": "MU",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 912.48,
-      "price": 981.6801,
-      "unrealized_pct": 7.584,
+      "price": 910.26,
+      "unrealized_pct": -0.243,
       "weight_pct": 3.79,
       "name": "Micron Technology, Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "day_return_pct": 3.893,
-      "per": 129.84,
+      "day_return_pct": -7.275,
+      "per": 120.39,
       "roe": 8.48,
-      "book_yield": 9.08,
-      "earnings_yield": 0.77,
+      "book_yield": 9.8,
+      "earnings_yield": 0.83,
       "asset_growth": 32.12,
       "gross_profit_asset": 11.09
     },
@@ -190,16 +190,16 @@
       "symbol": "INTC",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 102.09,
-      "price": 91.6721,
-      "unrealized_pct": -10.205,
+      "price": 87.3,
+      "unrealized_pct": -14.487,
       "weight_pct": 3.71,
       "name": "Intel Corporation",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "day_return_pct": -0.139,
+      "day_return_pct": -4.769,
       "per": null,
       "roe": -0.3,
-      "book_yield": 18.93,
+      "book_yield": 19.88,
       "earnings_yield": -0.06,
       "asset_growth": -1.41,
       "gross_profit_asset": 9.08
@@ -208,17 +208,17 @@
       "symbol": "KLAC",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 207.7,
-      "price": 186.11,
-      "unrealized_pct": -10.395,
+      "price": 181.57,
+      "unrealized_pct": -12.581,
       "weight_pct": 3.67,
       "name": "KLA Corporation",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "day_return_pct": -1.446,
-      "per": 5.99,
+      "day_return_pct": -2.439,
+      "per": 5.84,
       "roe": 69.66,
-      "book_yield": 23.98,
-      "earnings_yield": 16.71,
+      "book_yield": 24.58,
+      "earnings_yield": 17.12,
       "asset_growth": 0.92,
       "gross_profit_asset": 43.88
     },
@@ -226,17 +226,17 @@
       "symbol": "MRVL",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 225.5801,
-      "price": 249.8,
-      "unrealized_pct": 10.737,
+      "price": 228.75,
+      "unrealized_pct": 1.405,
       "weight_pct": 3.51,
       "name": "Marvell Technology, Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "day_return_pct": 1.741,
-      "per": 81.84,
+      "day_return_pct": -8.427,
+      "per": 74.94,
       "roe": 14.66,
-      "book_yield": 8.34,
-      "earnings_yield": 1.22,
+      "book_yield": 9.1,
+      "earnings_yield": 1.33,
       "asset_growth": 20.91,
       "gross_profit_asset": 15.52
     },
@@ -244,17 +244,17 @@
       "symbol": "LRCX",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 326.8662,
-      "price": 314.2556,
-      "unrealized_pct": -3.858,
+      "price": 309.08,
+      "unrealized_pct": -5.441,
       "weight_pct": 3.39,
       "name": "Lam Research Corporation",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "day_return_pct": 1.92,
-      "per": 73.35,
+      "day_return_pct": -1.647,
+      "per": 72.14,
       "roe": 50.62,
-      "book_yield": 2.69,
-      "earnings_yield": 1.36,
+      "book_yield": 2.74,
+      "earnings_yield": 1.39,
       "asset_growth": -2.8,
       "gross_profit_asset": 43.19
     },
@@ -262,17 +262,17 @@
       "symbol": "PGR",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 211.01,
-      "price": 218.79,
-      "unrealized_pct": 3.687,
+      "price": 223.92,
+      "unrealized_pct": 6.118,
       "weight_pct": 3.29,
       "name": "Progressive Corporation (The)",
       "sector": "Financial Services",
       "industry": "Insurance - Property & Casualty",
-      "day_return_pct": 0.349,
-      "per": 11.31,
+      "day_return_pct": 2.345,
+      "per": 11.57,
       "roe": 35.29,
-      "book_yield": 25.06,
-      "earnings_yield": 8.84,
+      "book_yield": 24.49,
+      "earnings_yield": 8.64,
       "asset_growth": -0.67,
       "gross_profit_asset": null
     },
@@ -280,17 +280,17 @@
       "symbol": "COHR",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 351.09,
-      "price": 298.295,
-      "unrealized_pct": -15.037,
+      "price": 275.7,
+      "unrealized_pct": -21.473,
       "weight_pct": 3.28,
       "name": "Coherent Corp.",
       "sector": "Technology",
       "industry": "Scientific & Technical Instruments",
-      "day_return_pct": 3.395,
-      "per": 1182.2,
+      "day_return_pct": -7.575,
+      "per": 1092.65,
       "roe": 0.46,
-      "book_yield": 18.3,
-      "earnings_yield": 0.08,
+      "book_yield": 19.8,
+      "earnings_yield": 0.09,
       "asset_growth": 14.57,
       "gross_profit_asset": 11.82
     },
@@ -298,16 +298,16 @@
       "symbol": "TPR",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 157.916,
-      "price": 130.6316,
-      "unrealized_pct": -17.278,
+      "price": 132.16,
+      "unrealized_pct": -16.31,
       "weight_pct": 3.28,
       "name": "Tapestry, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Luxury Goods",
-      "day_return_pct": 0.158,
-      "per": 144.07,
+      "day_return_pct": 1.17,
+      "per": 145.75,
       "roe": 26.85,
-      "book_yield": 2.59,
+      "book_yield": 2.56,
       "earnings_yield": 0.69,
       "asset_growth": -0.98,
       "gross_profit_asset": 81.79
@@ -316,17 +316,17 @@
       "symbol": "TER",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 398.5967,
-      "price": 376.72,
-      "unrealized_pct": -5.488,
+      "price": 365.0,
+      "unrealized_pct": -8.429,
       "weight_pct": 2.9,
       "name": "Teradyne, Inc.",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "day_return_pct": -0.893,
-      "per": 106.3,
+      "day_return_pct": -3.111,
+      "per": 103.0,
       "roe": 16.12,
-      "book_yield": 5.84,
-      "earnings_yield": 0.94,
+      "book_yield": 6.02,
+      "earnings_yield": 0.97,
       "asset_growth": 11.09,
       "gross_profit_asset": 37.71
     },
@@ -334,17 +334,17 @@
       "symbol": "CB",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 346.01,
-      "price": 343.1,
-      "unrealized_pct": -0.841,
+      "price": 345.83,
+      "unrealized_pct": -0.052,
       "weight_pct": 2.87,
       "name": "Chubb Limited",
       "sector": "Financial Services",
       "industry": "Insurance - Property & Casualty",
-      "day_return_pct": 0.617,
-      "per": 12.91,
+      "day_return_pct": 0.796,
+      "per": 13.01,
       "roe": 13.97,
-      "book_yield": 55.45,
-      "earnings_yield": 7.75,
+      "book_yield": 55.01,
+      "earnings_yield": 7.69,
       "asset_growth": 1.15,
       "gross_profit_asset": null
     },
@@ -352,16 +352,16 @@
       "symbol": "LITE",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 906.195,
-      "price": 910.39,
-      "unrealized_pct": 0.463,
+      "price": 829.42,
+      "unrealized_pct": -8.472,
       "weight_pct": 2.82,
       "name": "Lumentum Holdings Inc.",
       "sector": "Technology",
       "industry": "Communication Equipment",
-      "day_return_pct": 9.471,
-      "per": 2734.69,
+      "day_return_pct": -8.894,
+      "per": 2491.46,
       "roe": 0.87,
-      "book_yield": 4.2,
+      "book_yield": 4.61,
       "earnings_yield": 0.04,
       "asset_growth": 46.25,
       "gross_profit_asset": 6.54
@@ -370,17 +370,17 @@
       "symbol": "ADBE",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 259.82,
-      "price": 273.42,
-      "unrealized_pct": 5.234,
+      "price": 276.24,
+      "unrealized_pct": 6.32,
       "weight_pct": 2.7,
       "name": "Adobe Inc.",
       "sector": "Technology",
       "industry": "Software - Application",
-      "day_return_pct": 0.603,
-      "per": 15.24,
+      "day_return_pct": 1.031,
+      "per": 15.4,
       "roe": 61.9,
-      "book_yield": 10.6,
-      "earnings_yield": 6.56,
+      "book_yield": 10.49,
+      "earnings_yield": 6.49,
       "asset_growth": 0.77,
       "gross_profit_asset": 70.88
     },
@@ -388,17 +388,17 @@
       "symbol": "DVN",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 45.1,
-      "price": 49.67,
-      "unrealized_pct": 10.133,
+      "price": 48.2177,
+      "unrealized_pct": 6.913,
       "weight_pct": 2.67,
       "name": "Devon Energy Corporation",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "day_return_pct": 1.007,
-      "per": 11.68,
+      "day_return_pct": -2.924,
+      "per": 11.34,
       "roe": 17.12,
-      "book_yield": 49.99,
-      "earnings_yield": 8.56,
+      "book_yield": 51.49,
+      "earnings_yield": 8.82,
       "asset_growth": 0.0,
       "gross_profit_asset": 42.94
     },
@@ -406,17 +406,17 @@
       "symbol": "EOG",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 142.135,
-      "price": 152.96,
-      "unrealized_pct": 7.616,
+      "price": 150.21,
+      "unrealized_pct": 5.681,
       "weight_pct": 2.66,
       "name": "EOG Resources, Inc.",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "day_return_pct": 0.305,
-      "per": 16.36,
+      "day_return_pct": -1.798,
+      "per": 16.07,
       "roe": 16.11,
-      "book_yield": 37.94,
-      "earnings_yield": 6.11,
+      "book_yield": 38.63,
+      "earnings_yield": 6.22,
       "asset_growth": 3.05,
       "gross_profit_asset": null
     },
@@ -424,17 +424,17 @@
       "symbol": "APA",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 40.1175,
-      "price": 44.79,
-      "unrealized_pct": 11.647,
+      "price": 42.96,
+      "unrealized_pct": 7.086,
       "weight_pct": 2.62,
       "name": "APA Corporation",
       "sector": "Energy",
       "industry": "Oil & Gas E&P",
-      "day_return_pct": 0.269,
-      "per": 11.04,
+      "day_return_pct": -4.086,
+      "per": 10.59,
       "roe": 22.21,
-      "book_yield": 40.78,
-      "earnings_yield": 9.06,
+      "book_yield": 42.52,
+      "earnings_yield": 9.44,
       "asset_growth": 1.79,
       "gross_profit_asset": null
     },
@@ -442,17 +442,17 @@
       "symbol": "CIEN",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 421.02,
-      "price": 398.385,
-      "unrealized_pct": -5.376,
+      "price": 371.0,
+      "unrealized_pct": -11.881,
       "weight_pct": 2.62,
       "name": "Ciena Corporation",
       "sector": "Technology",
       "industry": "Communication Equipment",
-      "day_return_pct": -0.971,
-      "per": 457.22,
+      "day_return_pct": -6.874,
+      "per": 425.79,
       "roe": 4.26,
-      "book_yield": 5.13,
-      "earnings_yield": 0.22,
+      "book_yield": 5.51,
+      "earnings_yield": 0.23,
       "asset_growth": 2.5,
       "gross_profit_asset": 33.2
     },
@@ -460,17 +460,17 @@
       "symbol": "VRSK",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 178.0101,
-      "price": 186.16,
-      "unrealized_pct": 4.578,
+      "price": 189.55,
+      "unrealized_pct": 6.483,
       "weight_pct": 2.59,
       "name": "Verisk Analytics, Inc.",
       "sector": "Industrials",
       "industry": "Consulting Services",
-      "day_return_pct": -0.156,
-      "per": 26.85,
+      "day_return_pct": 1.821,
+      "per": 27.34,
       "roe": -77.79,
-      "book_yield": -4.79,
-      "earnings_yield": 3.72,
+      "book_yield": -4.7,
+      "earnings_yield": 3.66,
       "asset_growth": -25.78,
       "gross_profit_asset": 46.69
     },
@@ -478,17 +478,17 @@
       "symbol": "EG",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 364.2367,
-      "price": 370.91,
-      "unrealized_pct": 1.832,
+      "price": 376.79,
+      "unrealized_pct": 3.446,
       "weight_pct": 2.27,
       "name": "Everest Group, Ltd.",
       "sector": "Financial Services",
       "industry": "Insurance - Reinsurance",
-      "day_return_pct": 2.064,
-      "per": 9.23,
+      "day_return_pct": 1.585,
+      "per": 9.37,
       "roe": 10.4,
-      "book_yield": 104.18,
-      "earnings_yield": 10.84,
+      "book_yield": 102.55,
+      "earnings_yield": 10.67,
       "asset_growth": -0.28,
       "gross_profit_asset": null
     },
@@ -496,17 +496,17 @@
       "symbol": "GLW",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 167.85,
-      "price": 154.62,
-      "unrealized_pct": -7.882,
+      "price": 145.0,
+      "unrealized_pct": -13.613,
       "weight_pct": 2.27,
       "name": "Corning Incorporated",
       "sector": "Technology",
       "industry": "Electronic Components",
-      "day_return_pct": 1.414,
-      "per": 83.38,
+      "day_return_pct": -6.222,
+      "per": 78.19,
       "roe": 13.51,
-      "book_yield": 8.88,
-      "earnings_yield": 1.2,
+      "book_yield": 9.47,
+      "earnings_yield": 1.28,
       "asset_growth": 0.89,
       "gross_profit_asset": 17.99
     },
@@ -514,13 +514,13 @@
       "symbol": "SLE",
       "entry_ts": "2026-08-13T02:34:34Z",
       "avg_cost": 3.0115,
-      "price": 4.34,
-      "unrealized_pct": 44.113,
+      "price": 4.32,
+      "unrealized_pct": 43.449,
       "weight_pct": 0.31,
       "name": "Super League Enterprise, Inc.",
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "day_return_pct": 3.828
+      "day_return_pct": -0.461
     }
   ],
   "sectors": [
@@ -662,34 +662,34 @@
       },
       {
         "axis": "과거",
-        "portfolio": 81.8,
+        "portfolio": 82.4,
         "symbols": {
-          "ALL": 68.3,
+          "ALL": 71.3,
           "AMAT": 98.4,
-          "AMD": 97.6,
-          "CASY": 91.4,
+          "AMD": 98.0,
+          "CASY": 92.6,
           "SNDK": 100.0,
-          "DD": 84.6,
-          "SBUX": 58.7,
+          "DD": 83.0,
+          "SBUX": 61.5,
           "WDC": 99.6,
           "MU": 99.8,
           "INTC": 98.8,
           "KLAC": 96.8,
           "MRVL": 97.2,
-          "LRCX": 97.4,
-          "PGR": 25.3,
+          "LRCX": 97.8,
+          "PGR": 27.5,
           "COHR": 98.2,
-          "TPR": 82.0,
-          "TER": 98.0,
-          "CB": 69.1,
+          "TPR": 83.4,
+          "TER": 97.6,
+          "CB": 72.3,
           "LITE": 99.4,
-          "ADBE": 5.8,
-          "DVN": 75.6,
-          "EOG": 67.9,
-          "APA": 93.6,
+          "ADBE": 5.4,
+          "DVN": 73.1,
+          "EOG": 68.5,
+          "APA": 92.8,
           "CIEN": 99.0,
-          "VRSK": 11.4,
-          "EG": 50.7,
+          "VRSK": 11.6,
+          "EG": 53.9,
           "GLW": 96.2
         },
         "universe_n": 500,
@@ -732,7 +732,7 @@
       },
       {
         "axis": "배당",
-        "portfolio": 33.8,
+        "portfolio": 33.9,
         "symbols": {
           "ALL": 57.9,
           "AMAT": 23.8,
@@ -740,7 +740,7 @@
           "CASY": 24.0,
           "SNDK": 15.4,
           "DD": 59.1,
-          "SBUX": 62.1,
+          "SBUX": 62.3,
           "WDC": 20.4,
           "MU": 19.2,
           "INTC": 10.8,
@@ -749,18 +749,18 @@
           "LRCX": 25.0,
           "PGR": 98.6,
           "COHR": 4.8,
-          "TPR": 46.3,
+          "TPR": 46.5,
           "TER": 21.4,
           "CB": 29.9,
           "LITE": 11.8,
           "ADBE": 0.4,
-          "DVN": 71.9,
-          "EOG": 81.2,
-          "APA": 79.8,
+          "DVN": 72.3,
+          "EOG": 81.4,
+          "APA": 80.2,
           "CIEN": 4.2,
-          "VRSK": 41.1,
-          "EG": 43.9,
-          "GLW": 35.7
+          "VRSK": 41.7,
+          "EG": 44.3,
+          "GLW": 35.9
         },
         "universe_n": 502,
         "cover_pct": 91.4
@@ -772,170 +772,170 @@
       {
         "symbol": "PGR",
         "dps_ttm": 13.9,
-        "yield_pct": 6.353,
+        "yield_pct": 6.208,
         "yield_on_cost_pct": 6.587,
         "weight_pct": 3.29,
-        "contribution_pct": 0.209
-      },
-      {
-        "symbol": "EOG",
-        "dps_ttm": 4.08,
-        "yield_pct": 2.667,
-        "yield_on_cost_pct": 2.871,
-        "weight_pct": 2.66,
-        "contribution_pct": 0.0709
+        "contribution_pct": 0.2042
       },
       {
         "symbol": "MUR",
         "dps_ttm": 1.025,
-        "yield_pct": 2.663,
+        "yield_pct": 2.847,
         "yield_on_cost_pct": 2.89,
         "weight_pct": 4.35,
-        "contribution_pct": 0.1158
+        "contribution_pct": 0.1238
+      },
+      {
+        "symbol": "EOG",
+        "dps_ttm": 4.08,
+        "yield_pct": 2.716,
+        "yield_on_cost_pct": 2.871,
+        "weight_pct": 2.66,
+        "contribution_pct": 0.0722
       },
       {
         "symbol": "APA",
         "dps_ttm": 1.0,
-        "yield_pct": 2.233,
+        "yield_pct": 2.328,
         "yield_on_cost_pct": 2.493,
         "weight_pct": 2.62,
-        "contribution_pct": 0.0585
+        "contribution_pct": 0.061
       },
       {
         "symbol": "DVN",
         "dps_ttm": 1.04,
-        "yield_pct": 2.094,
+        "yield_pct": 2.157,
         "yield_on_cost_pct": 2.306,
         "weight_pct": 2.67,
-        "contribution_pct": 0.0559
+        "contribution_pct": 0.0576
       },
       {
         "symbol": "SBUX",
         "dps_ttm": 1.86,
-        "yield_pct": 1.786,
+        "yield_pct": 1.73,
         "yield_on_cost_pct": 1.749,
         "weight_pct": 3.86,
-        "contribution_pct": 0.0689
+        "contribution_pct": 0.0668
       },
       {
         "symbol": "DD",
         "dps_ttm": 2.3146,
-        "yield_pct": 1.65,
+        "yield_pct": 1.694,
         "yield_on_cost_pct": 1.597,
         "weight_pct": 4.06,
-        "contribution_pct": 0.067
+        "contribution_pct": 0.0688
       },
       {
         "symbol": "ALL",
         "dps_ttm": 4.16,
-        "yield_pct": 1.623,
+        "yield_pct": 1.599,
         "yield_on_cost_pct": 1.591,
         "weight_pct": 5.16,
-        "contribution_pct": 0.0837
+        "contribution_pct": 0.0825
       },
       {
         "symbol": "TPR",
         "dps_ttm": 1.6,
-        "yield_pct": 1.225,
+        "yield_pct": 1.211,
         "yield_on_cost_pct": 1.013,
         "weight_pct": 3.28,
-        "contribution_pct": 0.0402
+        "contribution_pct": 0.0397
       },
       {
         "symbol": "EG",
         "dps_ttm": 4.0,
-        "yield_pct": 1.078,
+        "yield_pct": 1.062,
         "yield_on_cost_pct": 1.098,
         "weight_pct": 2.27,
-        "contribution_pct": 0.0245
+        "contribution_pct": 0.0241
       },
       {
         "symbol": "VRSK",
         "dps_ttm": 1.9,
-        "yield_pct": 1.021,
+        "yield_pct": 1.002,
         "yield_on_cost_pct": 1.067,
         "weight_pct": 2.59,
-        "contribution_pct": 0.0264
+        "contribution_pct": 0.026
       },
       {
         "symbol": "GLW",
         "dps_ttm": 1.12,
-        "yield_pct": 0.724,
+        "yield_pct": 0.772,
         "yield_on_cost_pct": 0.667,
         "weight_pct": 2.27,
-        "contribution_pct": 0.0164
+        "contribution_pct": 0.0175
       },
       {
         "symbol": "CB",
         "dps_ttm": 1.99,
-        "yield_pct": 0.58,
+        "yield_pct": 0.575,
         "yield_on_cost_pct": 0.575,
         "weight_pct": 2.87,
-        "contribution_pct": 0.0166
-      },
-      {
-        "symbol": "LRCX",
-        "dps_ttm": 1.04,
-        "yield_pct": 0.331,
-        "yield_on_cost_pct": 0.318,
-        "weight_pct": 3.39,
-        "contribution_pct": 0.0112
+        "contribution_pct": 0.0165
       },
       {
         "symbol": "KLAC",
         "dps_ttm": 0.61,
-        "yield_pct": 0.328,
+        "yield_pct": 0.336,
         "yield_on_cost_pct": 0.294,
         "weight_pct": 3.67,
-        "contribution_pct": 0.012
+        "contribution_pct": 0.0123
+      },
+      {
+        "symbol": "LRCX",
+        "dps_ttm": 1.04,
+        "yield_pct": 0.336,
+        "yield_on_cost_pct": 0.318,
+        "weight_pct": 3.39,
+        "contribution_pct": 0.0114
       },
       {
         "symbol": "AMAT",
         "dps_ttm": 1.45,
-        "yield_pct": 0.293,
+        "yield_pct": 0.299,
         "yield_on_cost_pct": 0.263,
         "weight_pct": 4.58,
-        "contribution_pct": 0.0134
+        "contribution_pct": 0.0137
       },
       {
         "symbol": "CASY",
         "dps_ttm": 2.36,
-        "yield_pct": 0.282,
+        "yield_pct": 0.276,
         "yield_on_cost_pct": 0.284,
         "weight_pct": 4.31,
-        "contribution_pct": 0.0122
+        "contribution_pct": 0.0119
       },
       {
         "symbol": "TER",
         "dps_ttm": 0.5,
-        "yield_pct": 0.133,
+        "yield_pct": 0.137,
         "yield_on_cost_pct": 0.125,
         "weight_pct": 2.9,
-        "contribution_pct": 0.0039
+        "contribution_pct": 0.004
       },
       {
         "symbol": "WDC",
         "dps_ttm": 0.5,
-        "yield_pct": 0.106,
+        "yield_pct": 0.115,
         "yield_on_cost_pct": 0.109,
         "weight_pct": 3.8,
-        "contribution_pct": 0.004
+        "contribution_pct": 0.0044
       },
       {
         "symbol": "MRVL",
         "dps_ttm": 0.24,
-        "yield_pct": 0.096,
+        "yield_pct": 0.105,
         "yield_on_cost_pct": 0.106,
         "weight_pct": 3.51,
-        "contribution_pct": 0.0034
+        "contribution_pct": 0.0037
       },
       {
         "symbol": "MU",
         "dps_ttm": 0.53,
-        "yield_pct": 0.054,
+        "yield_pct": 0.058,
         "yield_on_cost_pct": 0.058,
         "weight_pct": 3.79,
-        "contribution_pct": 0.002
+        "contribution_pct": 0.0022
       },
       {
         "symbol": "AMD",
@@ -1010,7 +1010,7 @@
         "contribution_pct": null
       }
     ],
-    "portfolio_yield_pct": 0.916,
+    "portfolio_yield_pct": 0.924,
     "recent": [
       {
         "symbol": "CASY",
@@ -1076,7 +1076,7 @@
     "history_monthly": [
       {
         "period": "2023-08",
-        "yield_pct": 0.0008
+        "yield_pct": 0.0009
       },
       {
         "period": "2023-09",
@@ -1100,7 +1100,7 @@
       },
       {
         "period": "2024-02",
-        "yield_pct": 0.0008
+        "yield_pct": 0.0009
       },
       {
         "period": "2024-03",
@@ -1148,7 +1148,7 @@
       },
       {
         "period": "2025-02",
-        "yield_pct": 0.0007
+        "yield_pct": 0.0008
       },
       {
         "period": "2025-03",
@@ -1168,7 +1168,7 @@
       },
       {
         "period": "2025-07",
-        "yield_pct": 0.0003
+        "yield_pct": 0.0004
       },
       {
         "period": "2025-08",
@@ -1204,7 +1204,7 @@
       },
       {
         "period": "2026-04",
-        "yield_pct": 0.0003
+        "yield_pct": 0.0004
       },
       {
         "period": "2026-05",
@@ -1246,7 +1246,7 @@
       },
       {
         "period": "1978",
-        "yield_pct": 0.0001
+        "yield_pct": 0.0002
       },
       {
         "period": "1979",
@@ -1270,11 +1270,11 @@
       },
       {
         "period": "1984",
-        "yield_pct": 0.0005
+        "yield_pct": 0.0006
       },
       {
         "period": "1985",
-        "yield_pct": 0.0005
+        "yield_pct": 0.0006
       },
       {
         "period": "1986",
@@ -1286,7 +1286,7 @@
       },
       {
         "period": "1988",
-        "yield_pct": 0.0006
+        "yield_pct": 0.0007
       },
       {
         "period": "1989",
@@ -1306,7 +1306,7 @@
       },
       {
         "period": "1993",
-        "yield_pct": 0.0009
+        "yield_pct": 0.001
       },
       {
         "period": "1994",
@@ -1318,11 +1318,11 @@
       },
       {
         "period": "1996",
-        "yield_pct": 0.0011
+        "yield_pct": 0.0012
       },
       {
         "period": "1997",
-        "yield_pct": 0.0031
+        "yield_pct": 0.0032
       },
       {
         "period": "1998",
@@ -1330,11 +1330,11 @@
       },
       {
         "period": "1999",
-        "yield_pct": 0.0013
+        "yield_pct": 0.0014
       },
       {
         "period": "2000",
-        "yield_pct": 0.0013
+        "yield_pct": 0.0014
       },
       {
         "period": "2001",
@@ -1342,7 +1342,7 @@
       },
       {
         "period": "2002",
-        "yield_pct": 0.0015
+        "yield_pct": 0.0016
       },
       {
         "period": "2003",
@@ -1354,93 +1354,93 @@
       },
       {
         "period": "2005",
-        "yield_pct": 0.002
+        "yield_pct": 0.0021
       },
       {
         "period": "2006",
-        "yield_pct": 0.0024
+        "yield_pct": 0.0025
       },
       {
         "period": "2007",
-        "yield_pct": 0.0032
+        "yield_pct": 0.0033
       },
       {
         "period": "2008",
-        "yield_pct": 0.0034
+        "yield_pct": 0.0036
       },
       {
         "period": "2009",
-        "yield_pct": 0.0028
+        "yield_pct": 0.0029
       },
       {
         "period": "2010",
-        "yield_pct": 0.0032
+        "yield_pct": 0.0033
       },
       {
         "period": "2011",
-        "yield_pct": 0.0035
+        "yield_pct": 0.0036
       },
       {
         "period": "2012",
-        "yield_pct": 0.0068
+        "yield_pct": 0.0071
       },
       {
         "period": "2013",
-        "yield_pct": 0.0045
+        "yield_pct": 0.0047
       },
       {
         "period": "2014",
-        "yield_pct": 0.0059
-      },
-      {
-        "period": "2015",
-        "yield_pct": 0.0059
-      },
-      {
-        "period": "2016",
-        "yield_pct": 0.0056
-      },
-      {
-        "period": "2017",
-        "yield_pct": 0.0054
-      },
-      {
-        "period": "2018",
-        "yield_pct": 0.0056
-      },
-      {
-        "period": "2019",
         "yield_pct": 0.0061
       },
       {
+        "period": "2015",
+        "yield_pct": 0.006
+      },
+      {
+        "period": "2016",
+        "yield_pct": 0.0058
+      },
+      {
+        "period": "2017",
+        "yield_pct": 0.0055
+      },
+      {
+        "period": "2018",
+        "yield_pct": 0.0058
+      },
+      {
+        "period": "2019",
+        "yield_pct": 0.0062
+      },
+      {
         "period": "2020",
-        "yield_pct": 0.0053
+        "yield_pct": 0.0054
       },
       {
         "period": "2021",
-        "yield_pct": 0.0072
+        "yield_pct": 0.0073
       },
       {
         "period": "2022",
-        "yield_pct": 0.0099
+        "yield_pct": 0.0101
       },
       {
         "period": "2023",
-        "yield_pct": 0.0086
+        "yield_pct": 0.0088
       },
       {
         "period": "2024",
-        "yield_pct": 0.0079
+        "yield_pct": 0.008
       },
       {
         "period": "2025",
-        "yield_pct": 0.0082
+        "yield_pct": 0.0083
       },
       {
         "period": "2026",
-        "yield_pct": 0.0066
+        "yield_pct": 0.0067
       }
     ],
-    "change_vs_prior_pct": 8.47
+    "change_vs_prior_pct": 7.92
   }
 }
