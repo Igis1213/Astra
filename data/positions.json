@@ -818,28 +818,28 @@
         "contribution_pct": 0.0664
       },
       {
-        "symbol": "DD",
-        "dps_ttm": 2.3146,
-        "yield_pct": 1.66,
-        "yield_on_cost_pct": 1.597,
-        "weight_pct": 4.06,
-        "contribution_pct": 0.0674
-      },
-      {
-        "symbol": "ALL",
-        "dps_ttm": 4.16,
-        "yield_pct": 1.619,
-        "yield_on_cost_pct": 1.591,
-        "weight_pct": 5.16,
-        "contribution_pct": 0.0835
-      },
-      {
         "symbol": "TPR",
         "dps_ttm": 1.6,
         "yield_pct": 1.292,
         "yield_on_cost_pct": 1.013,
         "weight_pct": 3.28,
         "contribution_pct": 0.0424
+      },
+      {
+        "symbol": "DD",
+        "dps_ttm": 1.8,
+        "yield_pct": 1.291,
+        "yield_on_cost_pct": 1.242,
+        "weight_pct": 4.06,
+        "contribution_pct": 0.0524
+      },
+      {
+        "symbol": "ALL",
+        "dps_ttm": 3.16,
+        "yield_pct": 1.229,
+        "yield_on_cost_pct": 1.208,
+        "weight_pct": 5.16,
+        "contribution_pct": 0.0634
       },
       {
         "symbol": "EG",
@@ -858,20 +858,20 @@
         "contribution_pct": 0.0256
       },
       {
-        "symbol": "GLW",
-        "dps_ttm": 1.12,
-        "yield_pct": 0.753,
-        "yield_on_cost_pct": 0.667,
-        "weight_pct": 2.27,
-        "contribution_pct": 0.0171
-      },
-      {
         "symbol": "CB",
         "dps_ttm": 1.99,
         "yield_pct": 0.586,
         "yield_on_cost_pct": 0.575,
         "weight_pct": 2.87,
         "contribution_pct": 0.0168
+      },
+      {
+        "symbol": "GLW",
+        "dps_ttm": 0.84,
+        "yield_pct": 0.565,
+        "yield_on_cost_pct": 0.5,
+        "weight_pct": 2.27,
+        "contribution_pct": 0.0128
       },
       {
         "symbol": "KLAC",
@@ -1010,7 +1010,7 @@
         "contribution_pct": null
       }
     ],
-    "portfolio_yield_pct": 0.935,
+    "portfolio_yield_pct": 0.896,
     "recent": [
       {
         "symbol": "CASY",
@@ -1441,6 +1441,6 @@
         "yield_pct": 0.0067
       }
     ],
-    "change_vs_prior_pct": 8.26
+    "change_vs_prior_pct": -0.81
   }
 }
