@@ -1,6 +1,238 @@
 {
   "rows": [
     {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "APA",
+      "side": "sell",
+      "price": 43.4
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "CIEN",
+      "side": "buy",
+      "price": 363.75
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "CL",
+      "side": "buy",
+      "price": 90.3
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "COHR",
+      "side": "buy",
+      "price": 272.72
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "DVN",
+      "side": "sell",
+      "price": 48.575
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "EG",
+      "side": "sell",
+      "price": 380.74
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "EIX",
+      "side": "buy",
+      "price": 54.94
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "EOG",
+      "side": "sell",
+      "price": 146.66
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "GLW",
+      "side": "sell",
+      "price": 145.245
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "LITE",
+      "side": "sell",
+      "price": 869.975
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "LRCX",
+      "side": "sell",
+      "price": 293.42
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "MRNA",
+      "side": "buy",
+      "price": 150.28
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "MRVL",
+      "side": "sell",
+      "price": 209.82
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "MU",
+      "side": "sell",
+      "price": 953.77
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "MUR",
+      "side": "sell",
+      "price": 36.87
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "SBUX",
+      "side": "sell",
+      "price": 105.61
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "SLE",
+      "side": "buy",
+      "price": 3.75734932
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "SNDK",
+      "side": "sell",
+      "price": 1591.05
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "STX",
+      "side": "buy",
+      "price": 819.1675
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "TE",
+      "side": "sell",
+      "price": 4.365
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "TER",
+      "side": "buy",
+      "price": 335.37
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "TPR",
+      "side": "buy",
+      "price": 122.235
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "VRSK",
+      "side": "sell",
+      "price": 194.635
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "WDC",
+      "side": "sell",
+      "price": 454.1
+    },
+    {
+      "ts": "2026-09-01T20:00:30Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "WRB",
+      "side": "buy",
+      "price": 67.745
+    },
+    {
+      "ts": "2026-09-01T20:00:29Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "AAPL",
+      "side": "buy",
+      "price": 326.01
+    },
+    {
+      "ts": "2026-09-01T20:00:29Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "ADBE",
+      "side": "sell",
+      "price": 288.835
+    },
+    {
+      "ts": "2026-09-01T20:00:29Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "ALL",
+      "side": "sell",
+      "price": 258.5
+    },
+    {
+      "ts": "2026-09-01T20:00:29Z",
+      "market": "US",
+      "strategy": "us_ctl_notech_n30",
+      "symbol": "AMAT",
+      "side": "buy",
+      "price": 445.53
+    },
+    {
       "ts": "2026-08-13T02:34:34Z",
       "market": "US",
       "strategy": "us_ctl_notech_n30",
@@ -252,485 +484,515 @@
   "contribution": [
     {
       "symbol": "SNDK",
-      "contribution_pct": 0.536,
+      "contribution_pct": 0.827,
       "has_unrealized": true
     },
     {
       "symbol": "ADBE",
-      "contribution_pct": 0.34,
+      "contribution_pct": 0.303,
       "has_unrealized": true
     },
     {
       "symbol": "VRSK",
-      "contribution_pct": 0.238,
-      "has_unrealized": true
+      "contribution_pct": 0.245,
+      "has_unrealized": false
     },
     {
       "symbol": "APA",
-      "contribution_pct": 0.179,
-      "has_unrealized": true
+      "contribution_pct": 0.218,
+      "has_unrealized": false
     },
     {
       "symbol": "DVN",
-      "contribution_pct": 0.175,
-      "has_unrealized": true
+      "contribution_pct": 0.209,
+      "has_unrealized": false
     },
     {
       "symbol": "MU",
-      "contribution_pct": 0.148,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "PGR",
-      "contribution_pct": 0.122,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "SLE",
-      "contribution_pct": 0.098,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "EG",
-      "contribution_pct": 0.066,
+      "contribution_pct": 0.177,
       "has_unrealized": true
     },
     {
       "symbol": "MUR",
-      "contribution_pct": 0.055,
+      "contribution_pct": 0.169,
       "has_unrealized": true
+    },
+    {
+      "symbol": "PGR",
+      "contribution_pct": 0.141,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "SLE",
+      "contribution_pct": 0.119,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "EG",
+      "contribution_pct": 0.104,
+      "has_unrealized": false
     },
     {
       "symbol": "EOG",
-      "contribution_pct": 0.044,
-      "has_unrealized": true
+      "contribution_pct": 0.086,
+      "has_unrealized": false
     },
     {
-      "symbol": "LITE",
-      "contribution_pct": 0.01,
-      "has_unrealized": true
+      "symbol": "AAPL",
+      "contribution_pct": 0.0,
+      "has_unrealized": false
+    },
+    {
+      "symbol": "MRNA",
+      "contribution_pct": 0.0,
+      "has_unrealized": false
+    },
+    {
+      "symbol": "EIX",
+      "contribution_pct": 0.0,
+      "has_unrealized": false
+    },
+    {
+      "symbol": "CL",
+      "contribution_pct": 0.0,
+      "has_unrealized": false
+    },
+    {
+      "symbol": "STX",
+      "contribution_pct": 0.0,
+      "has_unrealized": false
+    },
+    {
+      "symbol": "WRB",
+      "contribution_pct": 0.0,
+      "has_unrealized": false
     },
     {
       "symbol": "SBUX",
-      "contribution_pct": 0.009,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "CB",
-      "contribution_pct": -0.053,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "ALL",
-      "contribution_pct": -0.057,
+      "contribution_pct": -0.027,
       "has_unrealized": true
     },
     {
       "symbol": "WDC",
-      "contribution_pct": -0.092,
+      "contribution_pct": -0.036,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "CB",
+      "contribution_pct": -0.059,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "ALL",
+      "contribution_pct": -0.061,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "LITE",
+      "contribution_pct": -0.118,
       "has_unrealized": true
     },
     {
       "symbol": "AMD",
-      "contribution_pct": -0.154,
+      "contribution_pct": -0.24,
       "has_unrealized": true
     },
     {
       "symbol": "MRVL",
-      "contribution_pct": -0.219,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "LRCX",
-      "contribution_pct": -0.253,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "CIEN",
-      "contribution_pct": -0.255,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "GLW",
-      "contribution_pct": -0.258,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "DD",
-      "contribution_pct": -0.284,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "TER",
-      "contribution_pct": -0.346,
+      "contribution_pct": -0.256,
       "has_unrealized": true
     },
     {
       "symbol": "CASY",
-      "contribution_pct": -0.406,
+      "contribution_pct": -0.302,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "GLW",
+      "contribution_pct": -0.31,
+      "has_unrealized": false
+    },
+    {
+      "symbol": "DD",
+      "contribution_pct": -0.345,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "LRCX",
+      "contribution_pct": -0.352,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "CIEN",
+      "contribution_pct": -0.368,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "TER",
+      "contribution_pct": -0.466,
       "has_unrealized": true
     },
     {
       "symbol": "INTC",
-      "contribution_pct": -0.448,
+      "contribution_pct": -0.484,
       "has_unrealized": true
     },
     {
       "symbol": "KLAC",
-      "contribution_pct": -0.569,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "COHR",
-      "contribution_pct": -0.698,
+      "contribution_pct": -0.652,
       "has_unrealized": true
     },
     {
       "symbol": "TPR",
-      "contribution_pct": -0.736,
+      "contribution_pct": -0.749,
       "has_unrealized": true
     },
     {
-      "symbol": "AMAT",
-      "contribution_pct": -0.768,
+      "symbol": "COHR",
+      "contribution_pct": -0.752,
       "has_unrealized": true
     },
     {
       "symbol": "TE",
-      "contribution_pct": -0.777,
+      "contribution_pct": -0.804,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "AMAT",
+      "contribution_pct": -0.892,
       "has_unrealized": true
     }
   ],
   "returns_rows": [
     {
-      "symbol": "ALL",
-      "name": "Allstate Corporation (The)",
-      "sector": "Financial Services",
-      "weight_pct": 5.16,
-      "avg_cost": 261.55,
-      "price": 258.64,
-      "unrealized_pct": -1.113,
-      "contribution_pct": -0.057,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
       "symbol": "AMAT",
       "name": "Applied Materials, Inc.",
       "sector": "Technology",
-      "weight_pct": 4.58,
-      "avg_cost": 551.2175,
-      "price": 458.75,
-      "unrealized_pct": -16.775,
-      "contribution_pct": -0.768,
+      "weight_pct": 5.12,
+      "avg_cost": 539.4744,
+      "price": 445.49,
+      "unrealized_pct": -17.421,
+      "contribution_pct": -0.892,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "ALL",
+      "name": "Allstate Corporation (The)",
+      "sector": "Financial Services",
+      "weight_pct": 4.69,
+      "avg_cost": 261.55,
+      "price": 258.49,
+      "unrealized_pct": -1.17,
+      "contribution_pct": -0.061,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
-      "weight_pct": 4.54,
+      "weight_pct": 4.6,
       "avg_cost": 485.3576,
-      "price": 468.83,
-      "unrealized_pct": -3.405,
-      "contribution_pct": -0.154,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "MUR",
-      "name": "Murphy Oil Corporation",
-      "sector": "Energy",
-      "weight_pct": 4.35,
-      "avg_cost": 35.47,
-      "price": 35.915,
-      "unrealized_pct": 1.255,
-      "contribution_pct": 0.055,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "CASY",
-      "name": "Caseys General Stores, Inc.",
-      "sector": "Consumer Cyclical",
-      "weight_pct": 4.31,
-      "avg_cost": 830.035,
-      "price": 751.78,
-      "unrealized_pct": -9.428,
-      "contribution_pct": -0.406,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk Corporation",
-      "sector": "Technology",
-      "weight_pct": 4.15,
-      "avg_cost": 1330.9,
-      "price": 1503.0,
-      "unrealized_pct": 12.931,
-      "contribution_pct": 0.536,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "DD",
-      "name": "DuPont de Nemours, Inc.",
-      "sector": "Basic Materials",
-      "weight_pct": 4.06,
-      "avg_cost": 144.91,
-      "price": 134.79,
-      "unrealized_pct": -6.984,
-      "contribution_pct": -0.284,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "TE",
-      "name": "T1 Energy Inc.",
-      "sector": "Industrials",
-      "weight_pct": 3.99,
-      "avg_cost": 5.46,
-      "price": 4.395,
-      "unrealized_pct": -19.505,
-      "contribution_pct": -0.777,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "SBUX",
-      "name": "Starbucks Corporation",
-      "sector": "Consumer Cyclical",
-      "weight_pct": 3.86,
-      "avg_cost": 106.33,
-      "price": 106.57,
-      "unrealized_pct": 0.226,
-      "contribution_pct": 0.009,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital Corporation",
-      "sector": "Technology",
-      "weight_pct": 3.8,
-      "avg_cost": 457.7,
-      "price": 446.62,
-      "unrealized_pct": -2.421,
-      "contribution_pct": -0.092,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "MU",
-      "name": "Micron Technology, Inc.",
-      "sector": "Technology",
-      "weight_pct": 3.79,
-      "avg_cost": 912.48,
-      "price": 948.1001,
-      "unrealized_pct": 3.904,
-      "contribution_pct": 0.148,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "INTC",
-      "name": "Intel Corporation",
-      "sector": "Technology",
-      "weight_pct": 3.71,
-      "avg_cost": 102.09,
-      "price": 89.75,
-      "unrealized_pct": -12.087,
-      "contribution_pct": -0.448,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "KLAC",
-      "name": "KLA Corporation",
-      "sector": "Technology",
-      "weight_pct": 3.67,
-      "avg_cost": 207.7,
-      "price": 175.47,
-      "unrealized_pct": -15.518,
-      "contribution_pct": -0.569,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology, Inc.",
-      "sector": "Technology",
-      "weight_pct": 3.51,
-      "avg_cost": 225.5801,
-      "price": 211.491,
-      "unrealized_pct": -6.246,
-      "contribution_pct": -0.219,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "sector": "Technology",
-      "weight_pct": 3.39,
-      "avg_cost": 326.8662,
-      "price": 302.475,
-      "unrealized_pct": -7.462,
-      "contribution_pct": -0.253,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "PGR",
-      "name": "Progressive Corporation (The)",
-      "sector": "Financial Services",
-      "weight_pct": 3.29,
-      "avg_cost": 211.01,
-      "price": 218.82,
-      "unrealized_pct": 3.701,
-      "contribution_pct": 0.122,
+      "price": 460.06,
+      "unrealized_pct": -5.212,
+      "contribution_pct": -0.24,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "sector": "Technology",
-      "weight_pct": 3.28,
-      "avg_cost": 351.09,
-      "price": 276.4,
-      "unrealized_pct": -21.274,
-      "contribution_pct": -0.698,
+      "weight_pct": 4.48,
+      "avg_cost": 326.9762,
+      "price": 272.09,
+      "unrealized_pct": -16.786,
+      "contribution_pct": -0.752,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
-      "symbol": "TPR",
-      "name": "Tapestry, Inc.",
+      "symbol": "CASY",
+      "name": "Caseys General Stores, Inc.",
       "sector": "Consumer Cyclical",
-      "weight_pct": 3.28,
-      "avg_cost": 157.916,
-      "price": 122.47,
-      "unrealized_pct": -22.446,
-      "contribution_pct": -0.736,
+      "weight_pct": 4.37,
+      "avg_cost": 830.035,
+      "price": 772.83,
+      "unrealized_pct": -6.892,
+      "contribution_pct": -0.302,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
-      "symbol": "TER",
-      "name": "Teradyne, Inc.",
-      "sector": "Technology",
-      "weight_pct": 2.9,
-      "avg_cost": 398.5967,
-      "price": 350.98,
-      "unrealized_pct": -11.946,
-      "contribution_pct": -0.346,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "CB",
-      "name": "Chubb Limited",
-      "sector": "Financial Services",
-      "weight_pct": 2.87,
-      "avg_cost": 346.01,
-      "price": 339.57,
-      "unrealized_pct": -1.861,
-      "contribution_pct": -0.053,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum Holdings Inc.",
-      "sector": "Technology",
-      "weight_pct": 2.82,
-      "avg_cost": 906.195,
-      "price": 909.5,
-      "unrealized_pct": 0.365,
-      "contribution_pct": 0.01,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "ADBE",
-      "name": "Adobe Inc.",
-      "sector": "Technology",
-      "weight_pct": 2.7,
-      "avg_cost": 259.82,
-      "price": 292.5801,
-      "unrealized_pct": 12.609,
-      "contribution_pct": 0.34,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "DVN",
-      "name": "Devon Energy Corporation",
-      "sector": "Energy",
-      "weight_pct": 2.67,
-      "avg_cost": 45.1,
-      "price": 48.055,
-      "unrealized_pct": 6.552,
-      "contribution_pct": 0.175,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "EOG",
-      "name": "EOG Resources, Inc.",
-      "sector": "Energy",
-      "weight_pct": 2.66,
-      "avg_cost": 142.135,
-      "price": 144.47,
-      "unrealized_pct": 1.643,
-      "contribution_pct": 0.044,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "APA",
-      "name": "APA Corporation",
-      "sector": "Energy",
-      "weight_pct": 2.62,
-      "avg_cost": 40.1175,
-      "price": 42.85,
-      "unrealized_pct": 6.811,
-      "contribution_pct": 0.179,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "CIEN",
-      "name": "Ciena Corporation",
-      "sector": "Technology",
-      "weight_pct": 2.62,
-      "avg_cost": 421.02,
-      "price": 380.045,
-      "unrealized_pct": -9.732,
-      "contribution_pct": -0.255,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics, Inc.",
-      "sector": "Industrials",
-      "weight_pct": 2.59,
-      "avg_cost": 178.0101,
-      "price": 194.37,
-      "unrealized_pct": 9.19,
-      "contribution_pct": 0.238,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "EG",
-      "name": "Everest Group, Ltd.",
-      "sector": "Financial Services",
-      "weight_pct": 2.27,
-      "avg_cost": 364.2367,
-      "price": 374.86,
-      "unrealized_pct": 2.917,
-      "contribution_pct": 0.066,
-      "entry_ts": "2026-08-13T02:34:34Z"
-    },
-    {
-      "symbol": "GLW",
-      "name": "Corning Incorporated",
-      "sector": "Technology",
-      "weight_pct": 2.27,
-      "avg_cost": 167.85,
-      "price": 148.7,
-      "unrealized_pct": -11.409,
-      "contribution_pct": -0.258,
+      "symbol": "DD",
+      "name": "DuPont de Nemours, Inc.",
+      "sector": "Basic Materials",
+      "weight_pct": 4.12,
+      "avg_cost": 144.91,
+      "price": 132.795,
+      "unrealized_pct": -8.36,
+      "contribution_pct": -0.345,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
       "symbol": "SLE",
       "name": "Super League Enterprise, Inc.",
       "sector": "Communication Services",
-      "weight_pct": 0.31,
-      "avg_cost": 3.0115,
-      "price": 3.9773,
-      "unrealized_pct": 32.07,
-      "contribution_pct": 0.098,
+      "weight_pct": 4.11,
+      "avg_cost": 3.6882,
+      "price": 3.795,
+      "unrealized_pct": 2.896,
+      "contribution_pct": 0.119,
       "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "TE",
+      "name": "T1 Energy Inc.",
+      "sector": "Industrials",
+      "weight_pct": 4.02,
+      "avg_cost": 5.46,
+      "price": 4.375,
+      "unrealized_pct": -19.872,
+      "contribution_pct": -0.804,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel Corporation",
+      "sector": "Technology",
+      "weight_pct": 3.77,
+      "avg_cost": 102.09,
+      "price": 88.98,
+      "unrealized_pct": -12.842,
+      "contribution_pct": -0.484,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Technology",
+      "weight_pct": 3.72,
+      "avg_cost": 207.7,
+      "price": 171.29,
+      "unrealized_pct": -17.53,
+      "contribution_pct": -0.652,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "TPR",
+      "name": "Tapestry, Inc.",
+      "sector": "Consumer Cyclical",
+      "weight_pct": 3.72,
+      "avg_cost": 153.262,
+      "price": 122.36,
+      "unrealized_pct": -20.163,
+      "contribution_pct": -0.749,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "MUR",
+      "name": "Murphy Oil Corporation",
+      "sector": "Energy",
+      "weight_pct": 3.7,
+      "avg_cost": 35.47,
+      "price": 36.8216,
+      "unrealized_pct": 3.811,
+      "contribution_pct": 0.169,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "SBUX",
+      "name": "Starbucks Corporation",
+      "sector": "Consumer Cyclical",
+      "weight_pct": 3.59,
+      "avg_cost": 106.33,
+      "price": 105.6,
+      "unrealized_pct": -0.687,
+      "contribution_pct": -0.027,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "PGR",
+      "name": "Progressive Corporation (The)",
+      "sector": "Financial Services",
+      "weight_pct": 3.34,
+      "avg_cost": 211.01,
+      "price": 219.935,
+      "unrealized_pct": 4.23,
+      "contribution_pct": 0.141,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna, Inc.",
+      "sector": "Healthcare",
+      "weight_pct": 3.33,
+      "avg_cost": 150.28,
+      "price": null,
+      "unrealized_pct": null,
+      "contribution_pct": 0.0,
+      "entry_ts": "2026-09-01T20:00:30Z"
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne, Inc.",
+      "sector": "Technology",
+      "weight_pct": 3.29,
+      "avg_cost": 390.6934,
+      "price": 335.43,
+      "unrealized_pct": -14.145,
+      "contribution_pct": -0.466,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "sector": "Technology",
+      "weight_pct": 3.1,
+      "avg_cost": 326.8662,
+      "price": 293.445,
+      "unrealized_pct": -10.225,
+      "contribution_pct": -0.352,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "sector": "Technology",
+      "weight_pct": 3.09,
+      "avg_cost": 225.5801,
+      "price": 209.35,
+      "unrealized_pct": -7.195,
+      "contribution_pct": -0.256,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena Corporation",
+      "sector": "Technology",
+      "weight_pct": 3.05,
+      "avg_cost": 412.8386,
+      "price": 362.955,
+      "unrealized_pct": -12.083,
+      "contribution_pct": -0.368,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb Limited",
+      "sector": "Financial Services",
+      "weight_pct": 2.92,
+      "avg_cost": 346.01,
+      "price": 339.06,
+      "unrealized_pct": -2.009,
+      "contribution_pct": -0.059,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "EIX",
+      "name": "Edison International",
+      "sector": "Utilities",
+      "weight_pct": 2.9,
+      "avg_cost": 54.94,
+      "price": null,
+      "unrealized_pct": null,
+      "contribution_pct": 0.0,
+      "entry_ts": "2026-09-01T20:00:30Z"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "weight_pct": 2.89,
+      "avg_cost": 912.48,
+      "price": 954.66,
+      "unrealized_pct": 4.623,
+      "contribution_pct": 0.177,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital Corporation",
+      "sector": "Technology",
+      "weight_pct": 2.89,
+      "avg_cost": 457.7,
+      "price": 453.25,
+      "unrealized_pct": -0.972,
+      "contribution_pct": -0.036,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "sector": "Technology",
+      "weight_pct": 2.81,
+      "avg_cost": 1330.9,
+      "price": 1593.25,
+      "unrealized_pct": 19.712,
+      "contribution_pct": 0.827,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "CL",
+      "name": "Colgate-Palmolive Company",
+      "sector": "Consumer Defensive",
+      "weight_pct": 2.28,
+      "avg_cost": 90.3,
+      "price": null,
+      "unrealized_pct": null,
+      "contribution_pct": 0.0,
+      "entry_ts": "2026-09-01T20:00:30Z"
+    },
+    {
+      "symbol": "WRB",
+      "name": "W.R. Berkley Corporation",
+      "sector": "Financial Services",
+      "weight_pct": 2.21,
+      "avg_cost": 67.745,
+      "price": null,
+      "unrealized_pct": null,
+      "contribution_pct": 0.0,
+      "entry_ts": "2026-09-01T20:00:30Z"
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "weight_pct": 2.19,
+      "avg_cost": 259.82,
+      "price": 288.48,
+      "unrealized_pct": 11.031,
+      "contribution_pct": 0.303,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "weight_pct": 2.06,
+      "avg_cost": 326.01,
+      "price": null,
+      "unrealized_pct": null,
+      "contribution_pct": 0.0,
+      "entry_ts": "2026-09-01T20:00:29Z"
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum Holdings Inc.",
+      "sector": "Technology",
+      "weight_pct": 1.91,
+      "avg_cost": 906.195,
+      "price": 868.22,
+      "unrealized_pct": -4.191,
+      "contribution_pct": -0.118,
+      "entry_ts": "2026-08-13T02:34:34Z"
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology Holdings PLC",
+      "sector": "Technology",
+      "weight_pct": 1.73,
+      "avg_cost": 819.1675,
+      "price": null,
+      "unrealized_pct": null,
+      "contribution_pct": 0.0,
+      "entry_ts": "2026-09-01T20:00:30Z"
     }
   ]
 }
