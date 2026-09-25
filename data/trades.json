@@ -484,37 +484,37 @@
   "contribution": [
     {
       "symbol": "SLE",
-      "contribution_pct": 2.017,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "SNDK",
-      "contribution_pct": 1.16,
+      "contribution_pct": 1.891,
       "has_unrealized": true
     },
     {
       "symbol": "AMD",
-      "contribution_pct": 1.139,
+      "contribution_pct": 1.401,
       "has_unrealized": true
     },
     {
-      "symbol": "INTC",
-      "contribution_pct": 0.71,
+      "symbol": "SNDK",
+      "contribution_pct": 1.245,
       "has_unrealized": true
     },
     {
       "symbol": "MRNA",
-      "contribution_pct": 0.697,
+      "contribution_pct": 1.002,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "INTC",
+      "contribution_pct": 0.839,
       "has_unrealized": true
     },
     {
       "symbol": "MU",
-      "contribution_pct": 0.464,
+      "contribution_pct": 0.62,
       "has_unrealized": true
     },
     {
       "symbol": "MRVL",
-      "contribution_pct": 0.344,
+      "contribution_pct": 0.485,
       "has_unrealized": true
     },
     {
@@ -534,12 +534,12 @@
     },
     {
       "symbol": "STX",
-      "contribution_pct": 0.2,
+      "contribution_pct": 0.194,
       "has_unrealized": true
     },
     {
       "symbol": "MUR",
-      "contribution_pct": 0.159,
+      "contribution_pct": 0.145,
       "has_unrealized": true
     },
     {
@@ -554,57 +554,57 @@
     },
     {
       "symbol": "AAPL",
-      "contribution_pct": 0.062,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "WRB",
-      "contribution_pct": 0.009,
+      "contribution_pct": 0.055,
       "has_unrealized": true
     },
     {
       "symbol": "LITE",
-      "contribution_pct": -0.009,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "WDC",
-      "contribution_pct": -0.029,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "CB",
-      "contribution_pct": -0.072,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "EIX",
-      "contribution_pct": -0.073,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "ADBE",
-      "contribution_pct": -0.075,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "CL",
-      "contribution_pct": -0.089,
+      "contribution_pct": 0.018,
       "has_unrealized": true
     },
     {
       "symbol": "TER",
-      "contribution_pct": -0.107,
+      "contribution_pct": -0.002,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "WRB",
+      "contribution_pct": -0.021,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "WDC",
+      "contribution_pct": -0.036,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "CB",
+      "contribution_pct": -0.09,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "ADBE",
+      "contribution_pct": -0.118,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "EIX",
+      "contribution_pct": -0.118,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "CL",
+      "contribution_pct": -0.123,
       "has_unrealized": true
     },
     {
       "symbol": "PGR",
-      "contribution_pct": -0.112,
+      "contribution_pct": -0.142,
       "has_unrealized": true
     },
     {
       "symbol": "LRCX",
-      "contribution_pct": -0.293,
+      "contribution_pct": -0.205,
       "has_unrealized": true
     },
     {
@@ -613,53 +613,53 @@
       "has_unrealized": false
     },
     {
-      "symbol": "DD",
-      "contribution_pct": -0.395,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "SBUX",
-      "contribution_pct": -0.409,
-      "has_unrealized": true
-    },
-    {
       "symbol": "KLAC",
-      "contribution_pct": -0.434,
+      "contribution_pct": -0.363,
       "has_unrealized": true
     },
     {
       "symbol": "CIEN",
-      "contribution_pct": -0.467,
+      "contribution_pct": -0.383,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "DD",
+      "contribution_pct": -0.418,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "SBUX",
+      "contribution_pct": -0.418,
       "has_unrealized": true
     },
     {
       "symbol": "COHR",
-      "contribution_pct": -0.478,
-      "has_unrealized": true
-    },
-    {
-      "symbol": "ALL",
-      "contribution_pct": -0.615,
+      "contribution_pct": -0.452,
       "has_unrealized": true
     },
     {
       "symbol": "AMAT",
-      "contribution_pct": -0.726,
+      "contribution_pct": -0.569,
+      "has_unrealized": true
+    },
+    {
+      "symbol": "ALL",
+      "contribution_pct": -0.606,
       "has_unrealized": true
     },
     {
       "symbol": "TPR",
-      "contribution_pct": -1.011,
+      "contribution_pct": -0.989,
       "has_unrealized": true
     },
     {
       "symbol": "TE",
-      "contribution_pct": -1.133,
+      "contribution_pct": -1.184,
       "has_unrealized": true
     },
     {
       "symbol": "CASY",
-      "contribution_pct": -1.223,
+      "contribution_pct": -1.215,
       "has_unrealized": true
     }
   ],
@@ -670,9 +670,9 @@
       "sector": "Technology",
       "weight_pct": 5.12,
       "avg_cost": 539.4744,
-      "price": 462.98,
-      "unrealized_pct": -14.179,
-      "contribution_pct": -0.726,
+      "price": 479.5,
+      "unrealized_pct": -11.117,
+      "contribution_pct": -0.569,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -681,9 +681,9 @@
       "sector": "Financial Services",
       "weight_pct": 4.69,
       "avg_cost": 261.55,
-      "price": 227.6,
-      "unrealized_pct": -12.98,
-      "contribution_pct": -0.615,
+      "price": 228.08,
+      "unrealized_pct": -12.797,
+      "contribution_pct": -0.606,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -692,9 +692,9 @@
       "sector": "Technology",
       "weight_pct": 4.6,
       "avg_cost": 485.3576,
-      "price": 605.425,
-      "unrealized_pct": 24.738,
-      "contribution_pct": 1.139,
+      "price": 632.995,
+      "unrealized_pct": 30.418,
+      "contribution_pct": 1.401,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -703,9 +703,9 @@
       "sector": "Technology",
       "weight_pct": 4.48,
       "avg_cost": 326.9762,
-      "price": 292.06,
-      "unrealized_pct": -10.679,
-      "contribution_pct": -0.478,
+      "price": 294.0,
+      "unrealized_pct": -10.085,
+      "contribution_pct": -0.452,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -714,9 +714,9 @@
       "sector": "Consumer Cyclical",
       "weight_pct": 4.37,
       "avg_cost": 830.035,
-      "price": 598.0,
-      "unrealized_pct": -27.955,
-      "contribution_pct": -1.223,
+      "price": 599.5127,
+      "unrealized_pct": -27.773,
+      "contribution_pct": -1.215,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -725,9 +725,9 @@
       "sector": "Basic Materials",
       "weight_pct": 4.12,
       "avg_cost": 144.91,
-      "price": 131.04,
-      "unrealized_pct": -9.571,
-      "contribution_pct": -0.395,
+      "price": 130.21,
+      "unrealized_pct": -10.144,
+      "contribution_pct": -0.418,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -736,9 +736,9 @@
       "sector": "Communication Services",
       "weight_pct": 4.11,
       "avg_cost": 3.6882,
-      "price": 5.4988,
-      "unrealized_pct": 49.092,
-      "contribution_pct": 2.017,
+      "price": 5.3855,
+      "unrealized_pct": 46.02,
+      "contribution_pct": 1.891,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -747,9 +747,9 @@
       "sector": "Industrials",
       "weight_pct": 4.02,
       "avg_cost": 5.46,
-      "price": 3.9288,
-      "unrealized_pct": -28.044,
-      "contribution_pct": -1.133,
+      "price": 3.86,
+      "unrealized_pct": -29.304,
+      "contribution_pct": -1.184,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -758,9 +758,9 @@
       "sector": "Technology",
       "weight_pct": 3.77,
       "avg_cost": 102.09,
-      "price": 121.33,
-      "unrealized_pct": 18.846,
-      "contribution_pct": 0.71,
+      "price": 124.8314,
+      "unrealized_pct": 22.276,
+      "contribution_pct": 0.839,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -769,9 +769,9 @@
       "sector": "Technology",
       "weight_pct": 3.72,
       "avg_cost": 207.7,
-      "price": 183.49,
-      "unrealized_pct": -11.656,
-      "contribution_pct": -0.434,
+      "price": 187.43,
+      "unrealized_pct": -9.759,
+      "contribution_pct": -0.363,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -780,9 +780,9 @@
       "sector": "Consumer Cyclical",
       "weight_pct": 3.72,
       "avg_cost": 153.262,
-      "price": 111.5725,
-      "unrealized_pct": -27.201,
-      "contribution_pct": -1.011,
+      "price": 112.46,
+      "unrealized_pct": -26.622,
+      "contribution_pct": -0.989,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -791,9 +791,9 @@
       "sector": "Energy",
       "weight_pct": 3.7,
       "avg_cost": 35.47,
-      "price": 36.725,
-      "unrealized_pct": 3.538,
-      "contribution_pct": 0.159,
+      "price": 36.5875,
+      "unrealized_pct": 3.151,
+      "contribution_pct": 0.145,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -802,9 +802,9 @@
       "sector": "Consumer Cyclical",
       "weight_pct": 3.59,
       "avg_cost": 106.33,
-      "price": 94.28,
-      "unrealized_pct": -11.333,
-      "contribution_pct": -0.409,
+      "price": 94.01,
+      "unrealized_pct": -11.587,
+      "contribution_pct": -0.418,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -813,9 +813,9 @@
       "sector": "Financial Services",
       "weight_pct": 3.34,
       "avg_cost": 211.01,
-      "price": 203.955,
-      "unrealized_pct": -3.343,
-      "contribution_pct": -0.112,
+      "price": 202.055,
+      "unrealized_pct": -4.244,
+      "contribution_pct": -0.142,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -824,9 +824,9 @@
       "sector": "Healthcare",
       "weight_pct": 3.33,
       "avg_cost": 150.28,
-      "price": 181.77,
-      "unrealized_pct": 20.954,
-      "contribution_pct": 0.697,
+      "price": 195.555,
+      "unrealized_pct": 30.127,
+      "contribution_pct": 1.002,
       "entry_ts": "2026-09-01T20:00:30Z"
     },
     {
@@ -835,9 +835,9 @@
       "sector": "Technology",
       "weight_pct": 3.29,
       "avg_cost": 390.6934,
-      "price": 378.0,
-      "unrealized_pct": -3.249,
-      "contribution_pct": -0.107,
+      "price": 390.445,
+      "unrealized_pct": -0.064,
+      "contribution_pct": -0.002,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -846,9 +846,9 @@
       "sector": "Technology",
       "weight_pct": 3.1,
       "avg_cost": 326.8662,
-      "price": 299.72,
-      "unrealized_pct": -8.305,
-      "contribution_pct": -0.293,
+      "price": 309.0,
+      "unrealized_pct": -5.466,
+      "contribution_pct": -0.205,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -857,9 +857,9 @@
       "sector": "Technology",
       "weight_pct": 3.09,
       "avg_cost": 225.5801,
-      "price": 253.11,
-      "unrealized_pct": 12.204,
-      "contribution_pct": 0.344,
+      "price": 263.37,
+      "unrealized_pct": 16.752,
+      "contribution_pct": 0.485,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -868,9 +868,9 @@
       "sector": "Technology",
       "weight_pct": 3.05,
       "avg_cost": 412.8386,
-      "price": 349.6,
-      "unrealized_pct": -15.318,
-      "contribution_pct": -0.467,
+      "price": 361.0,
+      "unrealized_pct": -12.557,
+      "contribution_pct": -0.383,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -879,9 +879,9 @@
       "sector": "Financial Services",
       "weight_pct": 2.92,
       "avg_cost": 346.01,
-      "price": 337.48,
-      "unrealized_pct": -2.465,
-      "contribution_pct": -0.072,
+      "price": 335.36,
+      "unrealized_pct": -3.078,
+      "contribution_pct": -0.09,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -890,9 +890,9 @@
       "sector": "Utilities",
       "weight_pct": 2.9,
       "avg_cost": 54.94,
-      "price": 53.55,
-      "unrealized_pct": -2.53,
-      "contribution_pct": -0.073,
+      "price": 52.7,
+      "unrealized_pct": -4.077,
+      "contribution_pct": -0.118,
       "entry_ts": "2026-09-01T20:00:30Z"
     },
     {
@@ -901,9 +901,9 @@
       "sector": "Technology",
       "weight_pct": 2.89,
       "avg_cost": 912.48,
-      "price": 1045.5,
-      "unrealized_pct": 14.578,
-      "contribution_pct": 0.464,
+      "price": 1094.6601,
+      "unrealized_pct": 19.965,
+      "contribution_pct": 0.62,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -912,9 +912,9 @@
       "sector": "Technology",
       "weight_pct": 2.89,
       "avg_cost": 457.7,
-      "price": 454.25,
-      "unrealized_pct": -0.754,
-      "contribution_pct": -0.029,
+      "price": 453.26,
+      "unrealized_pct": -0.97,
+      "contribution_pct": -0.036,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -923,9 +923,9 @@
       "sector": "Technology",
       "weight_pct": 2.81,
       "avg_cost": 1330.9,
-      "price": 1751.1092,
-      "unrealized_pct": 31.573,
-      "contribution_pct": 1.16,
+      "price": 1791.34,
+      "unrealized_pct": 34.596,
+      "contribution_pct": 1.245,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -934,9 +934,9 @@
       "sector": "Consumer Defensive",
       "weight_pct": 2.28,
       "avg_cost": 90.3,
-      "price": 86.79,
-      "unrealized_pct": -3.887,
-      "contribution_pct": -0.089,
+      "price": 85.455,
+      "unrealized_pct": -5.365,
+      "contribution_pct": -0.123,
       "entry_ts": "2026-09-01T20:00:30Z"
     },
     {
@@ -945,9 +945,9 @@
       "sector": "Financial Services",
       "weight_pct": 2.21,
       "avg_cost": 67.745,
-      "price": 68.035,
-      "unrealized_pct": 0.428,
-      "contribution_pct": 0.009,
+      "price": 67.09,
+      "unrealized_pct": -0.967,
+      "contribution_pct": -0.021,
       "entry_ts": "2026-09-01T20:00:30Z"
     },
     {
@@ -956,9 +956,9 @@
       "sector": "Technology",
       "weight_pct": 2.19,
       "avg_cost": 259.82,
-      "price": 243.71,
-      "unrealized_pct": -6.2,
-      "contribution_pct": -0.075,
+      "price": 238.63,
+      "unrealized_pct": -8.156,
+      "contribution_pct": -0.118,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -967,9 +967,9 @@
       "sector": "Technology",
       "weight_pct": 2.06,
       "avg_cost": 326.01,
-      "price": 335.88,
-      "unrealized_pct": 3.028,
-      "contribution_pct": 0.062,
+      "price": 334.758,
+      "unrealized_pct": 2.683,
+      "contribution_pct": 0.055,
       "entry_ts": "2026-09-01T20:00:29Z"
     },
     {
@@ -978,9 +978,9 @@
       "sector": "Technology",
       "weight_pct": 1.91,
       "avg_cost": 906.195,
-      "price": 919.95,
-      "unrealized_pct": 1.518,
-      "contribution_pct": -0.009,
+      "price": 932.79,
+      "unrealized_pct": 2.935,
+      "contribution_pct": 0.018,
       "entry_ts": "2026-08-13T02:34:34Z"
     },
     {
@@ -989,9 +989,9 @@
       "sector": "Technology",
       "weight_pct": 1.73,
       "avg_cost": 819.1675,
-      "price": 914.0199,
-      "unrealized_pct": 11.579,
-      "contribution_pct": 0.2,
+      "price": 911.32,
+      "unrealized_pct": 11.25,
+      "contribution_pct": 0.194,
       "entry_ts": "2026-09-01T20:00:30Z"
     }
   ]
