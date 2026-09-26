@@ -583,12 +583,12 @@
       "has_unrealized": true
     },
     {
-      "symbol": "ADBE",
+      "symbol": "EIX",
       "contribution_pct": -0.118,
       "has_unrealized": true
     },
     {
-      "symbol": "EIX",
+      "symbol": "ADBE",
       "contribution_pct": -0.118,
       "has_unrealized": true
     },
@@ -623,12 +623,12 @@
       "has_unrealized": true
     },
     {
-      "symbol": "DD",
+      "symbol": "SBUX",
       "contribution_pct": -0.418,
       "has_unrealized": true
     },
     {
-      "symbol": "SBUX",
+      "symbol": "DD",
       "contribution_pct": -0.418,
       "has_unrealized": true
     },
