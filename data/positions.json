@@ -939,11 +939,11 @@
       },
       {
         "symbol": "MU",
-        "dps_ttm": 0.53,
-        "yield_pct": 0.049,
-        "yield_on_cost_pct": 0.058,
+        "dps_ttm": 0.415,
+        "yield_pct": 0.038,
+        "yield_on_cost_pct": 0.045,
         "weight_pct": 2.89,
-        "contribution_pct": 0.0014
+        "contribution_pct": 0.0011
       },
       {
         "symbol": "AMD",
@@ -1457,6 +1457,6 @@
         "yield_pct": 0.0072
       }
     ],
-    "change_vs_prior_pct": 8.73
+    "change_vs_prior_pct": 8.86
   }
 }
