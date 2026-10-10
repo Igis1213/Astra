@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:05:02Z",
+  "generated_at": "2026-10-10T21:03:57Z",
   "with_amounts": false,
   "n_positions": 30,
   "n_trades": 60,
@@ -19,32 +19,32 @@
     {
       "period": "1M",
       "strategy_pct": 4.88,
-      "benchmark_pct": 2.72,
-      "excess_pp": 2.16
+      "benchmark_pct": 2.95,
+      "excess_pp": 1.93
     },
     {
       "period": "3M",
       "strategy_pct": -3.81,
-      "benchmark_pct": -4.13,
-      "excess_pp": 0.32
+      "benchmark_pct": -3.92,
+      "excess_pp": 0.11
     },
     {
       "period": "YTD",
       "strategy_pct": -3.81,
-      "benchmark_pct": -4.13,
-      "excess_pp": 0.32
+      "benchmark_pct": -3.92,
+      "excess_pp": 0.11
     },
     {
       "period": "1Y",
       "strategy_pct": -3.81,
-      "benchmark_pct": -4.13,
-      "excess_pp": 0.32
+      "benchmark_pct": -3.92,
+      "excess_pp": 0.11
     },
     {
       "period": "전체",
       "strategy_pct": -3.81,
-      "benchmark_pct": -4.13,
-      "excess_pp": 0.32
+      "benchmark_pct": -3.92,
+      "excess_pp": 0.11
     }
   ],
   "strategy": {

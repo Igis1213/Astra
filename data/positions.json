@@ -931,11 +931,11 @@
       },
       {
         "symbol": "MRVL",
-        "dps_ttm": 0.24,
-        "yield_pct": 0.085,
-        "yield_on_cost_pct": 0.106,
+        "dps_ttm": 0.18,
+        "yield_pct": 0.064,
+        "yield_on_cost_pct": 0.08,
         "weight_pct": 3.09,
-        "contribution_pct": 0.0026
+        "contribution_pct": 0.002
       },
       {
         "symbol": "MU",
@@ -1026,7 +1026,7 @@
         "contribution_pct": null
       }
     ],
-    "portfolio_yield_pct": 0.876,
+    "portfolio_yield_pct": 0.875,
     "recent": [
       {
         "symbol": "CASY",
@@ -1457,6 +1457,6 @@
         "yield_pct": 0.007
       }
     ],
-    "change_vs_prior_pct": 2.86
+    "change_vs_prior_pct": 2.7
   }
 }
