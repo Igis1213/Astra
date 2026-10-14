@@ -31,7 +31,7 @@ const nf = (v, d = 2) => (v == null || Number.isNaN(v) ? '—'
 const pct = (v, d = 2) => (v == null ? '—' : `${v >= 0 ? '+' : ''}${nf(v, d)}%`);
 const upct = (v, d = 1) => (v == null ? '—' : `${nf(Math.abs(v), d)}%`);
 const pp = (v, d = 2) => (v == null ? '—' : `${v >= 0 ? '+' : ''}${nf(v, d)}%p`);
-const usd = (v) => (v == null ? '—' : `US$${nf(v, 2)}`);
+const won = (v) => (v == null ? '—' : `${nf(v, 0)}원`);
 const day = (ts) => (ts ? String(ts).slice(0, 10) : '—');
 const held = (ts) => {
   if (!ts) return null;
@@ -368,7 +368,7 @@ function RadarProfile({ data, height = 240 }) {
         </RadarChart>
       </ResponsiveContainer>
       <p className="mt-2 text-[11px] leading-relaxed text-slate-500">
-        <b className="text-slate-300">S&amp;P500 유니버스{n ? ` ${n}종목` : ''} 안에서의</b> 비중가중
+        <b className="text-slate-300">코스피 유니버스{n ? ` ${n}종목` : ''} 안에서의</b> 비중가중
         백분위(0~100). 50이면 시장 중간, 높을수록 그 팩터에 기울어 있다. 원본의{' '}
         <b className="text-slate-300">미래</b> 축은 실적 전망 데이터가 없어 제외했다.
       </p>
@@ -623,7 +623,7 @@ function PeriodsCard({ data }) {
               {pct(r.strategy_pct, 1)}
             </div>
             <div className="mt-0.5 font-mono text-[10.5px] text-slate-600">
-              S&amp;P500 {pct(r.benchmark_pct, 1)}
+              코스피200 {pct(r.benchmark_pct, 1)}
             </div>
             <div className={`font-mono text-[11px] tabular-nums ${sc(r.excess_pp)}`}>
               {pp(r.excess_pp, 1)}
@@ -680,7 +680,7 @@ function StrategyCard({ data }) {
 const PRINCIPLES = [
   ['Target', '워크포워드 OOS', '폴드마다 학습 구간만 보고 후보를 고른 뒤, 손대지 않은 다음 구간에서 잰다.'],
   ['Shuffle', '무작위 대조군', '종목 수·회전율을 맞춘 무작위 선택을 이기는지 본다. 동일가중만 보면 노출 차이가 실력으로 보인다.'],
-  ['TrendingUp', '시장이 기준', '무작위를 이기는 건 최소 조건이다. 진짜 질문은 S&P500을 위험조정으로 넘느냐다.'],
+  ['TrendingUp', '시장이 기준', '무작위를 이기는 건 최소 조건이다. 진짜 질문은 코스피200(KODEX200)을 넘느냐다.'],
   ['Lock', '백테스트=라이브', '시그널 코드 해시가 다르면 주문을 내지 않는다(fail-closed).'],
   ['Receipt', '비용 반영', '수수료·세금·슬리피지를 회전율 기준으로 백테스트에 물린다.'],
 ];
@@ -751,7 +751,7 @@ function PageHome({ data }) {
             팩터로 고르고 <span className="text-gold-400">규칙으로</span> 집행한다
           </h1>
           <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-slate-400">
-            S&amp;P500을 대상으로 워크포워드 검증을 통과한 팩터 전략만 실계좌에 올린다.
+            코스피200 종목을 대상으로 워크포워드 검증을 통과한 전략만 모의투자 대회 계좌에 올린다.
             종목 선택·비중·리밸런싱에 사람의 재량이 들어가지 않는다. 성과는 꾸미지 않고
             기록 그대로 공개한다.
           </p>
@@ -783,7 +783,7 @@ function PageHome({ data }) {
               </span>
               {all.benchmark_pct != null && (
                 <>
-                  <span className="text-slate-500">S&amp;P500
+                  <span className="text-slate-500">코스피200
                     <b className="ml-1.5 text-slate-300">{pct(all.benchmark_pct)}</b>
                   </span>
                   <span className="text-slate-500">초과
@@ -811,7 +811,7 @@ function PageHome({ data }) {
           { label: '누적 지수 (시작=100)', value: nf(lastIndex, 1), tone: 'text-gold-300',
             sub: '금액 대신 지수 — 계좌 잔고 비공개' },
           { label: '설정 이후 누적', value: pct(s?.total_return_pct), tone: sc(s?.total_return_pct),
-            sub: `S&P500 대비 ${pp(all?.excess_pp)}` },
+            sub: `코스피200 대비 ${pp(all?.excess_pp)}` },
           { label: '연평균 수익률 (CAGR)', value: pct(s?.cagr_pct), tone: sc(s?.cagr_pct),
             sub: '입출금 기록이 없어 IRR 대신 CAGR' },
           { label: '1일 수익률', value: pct(s?.day_return_pct), tone: sc(s?.day_return_pct),
@@ -932,8 +932,8 @@ function TabHoldings({ data }) {
                 {held(r.entry_ts) == null ? '—' : `${held(r.entry_ts)}일`}
               </Td>
               <Td num>
-                <span className="text-slate-200">{usd(r.price)}</span>
-                <span className="block text-[10.5px] text-slate-600">평단 {usd(r.avg_cost)}</span>
+                <span className="text-slate-200">{won(r.price)}</span>
+                <span className="block text-[10.5px] text-slate-600">평단 {won(r.avg_cost)}</span>
               </Td>
               <Td num className="text-slate-300">{r.per == null ? '—' : `${nf(r.per, 1)}x`}</Td>
               <Td num className="text-slate-300">{r.roe == null ? '—' : `${nf(r.roe, 1)}%`}</Td>
@@ -1014,8 +1014,8 @@ function TabReturns({ data }) {
               </Td>
               <Td num className="text-slate-500">{day(r.entry_ts)}</Td>
               <Td num className="text-slate-300">{nf(r.weight_pct, 1)}%</Td>
-              <Td num className="text-slate-300">{usd(r.avg_cost)}</Td>
-              <Td num className="text-slate-300">{usd(r.price)}</Td>
+              <Td num className="text-slate-300">{won(r.avg_cost)}</Td>
+              <Td num className="text-slate-300">{won(r.price)}</Td>
               <Td num className={sc(r.unrealized_pct)}>{pct(r.unrealized_pct)}</Td>
               <Td num className={sc(r.contribution_pct)}>{pct(r.contribution_pct)}</Td>
             </>
@@ -1032,7 +1032,7 @@ function TabReturns({ data }) {
               <Td className="text-slate-500">{day(r.ts)}</Td>
               <Td num className="text-slate-100">{r.symbol}</Td>
               <Td num><Tag tone={buy ? 'accent' : 'neutral'}>{buy ? '매수' : '매도'}</Tag></Td>
-              <Td num className="text-slate-300">{usd(r.price)}</Td>
+              <Td num className="text-slate-300">{won(r.price)}</Td>
             </>
           );
         }} />
@@ -1108,7 +1108,7 @@ function TabDividends({ data }) {
               <>
                 <Td className="text-slate-500">{r.ex_date}</Td>
                 <Td num className="text-slate-100">{r.symbol}</Td>
-                <Td num className="text-slate-300">{usd(r.dps)}</Td>
+                <Td num className="text-slate-300">{won(r.dps)}</Td>
               </>
             )} />
           </Card>,
@@ -1241,11 +1241,10 @@ function PageDashboard({ data, route }) {
 }
 
 // ══ 페이지: 투자 철학 ══════════════════════════════════════════════
-const SOURCES = [['가격·지수', 'yfinance (일봉, 수정주가)'],
-  ['재무', 'SEC EDGAR XBRL — 공시일 키잉'],
-  ['섹터·산업·배당', 'yfinance'],
-  ['체결·잔고', '한국투자증권 OpenAPI'],
-  ['벤치마크', 'SPY (배당재투자 ETF)']];
+const SOURCES = [['가격·지수', 'yfinance 리서치 / 한국투자증권 OpenAPI 실거래 (일봉)'],
+  ['수급', '한국투자증권 OpenAPI — 투자자별·프로그램 일별'],
+  ['체결·잔고', '한국투자증권 OpenAPI (모의투자 대회 계좌)'],
+  ['벤치마크', 'KODEX200 (코스피200 ETF)']];
 
 // 무엇을 못 보여주는지 적는 절. 안 적으면 '없는 것'과 '0인 것'을 구분할 수 없다.
 const GAPS = [
@@ -1259,7 +1258,7 @@ const GAPS = [
 
 const CAVEATS = [
   ['표본이 짧다', '실운용 기록이 몇 달 단위면 Sharpe·CAGR은 잡음이다. 판정하려면 최소 120 관측이 필요하다.'],
-  ['생존편향', 'S&P500 구성종목은 시점별로 강제하지만, 상장폐지 종목의 손실은 완전히 반영되지 않는다.'],
+  ['생존편향', '유니버스가 오늘 기준 시총 상위 200이라 과거 백테스트는 생존 종목만 본다. 기준선도 같은 유니버스라 초과수익은 덜 오염된다.'],
   ['백테스트 ≠ 미래', '워크포워드 OOS는 선택 절차의 일반화를 재는 것이지 수익을 보장하지 않는다.'],
 ];
 
