@@ -1,4 +1,25 @@
 {
-  "series": [],
-  "benchmarks": []
+  "series": [
+    {
+      "market": "KR",
+      "strategy": "kr_contest_mega2c70_lgbm_n5",
+      "points": [
+        {
+          "ts": "2026-10-15T00:00:44Z",
+          "index": 100.0
+        }
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "name": "KOSPI200 (KODEX200)",
+      "points": [
+        {
+          "ts": "2026-10-15T00:00:44Z",
+          "index": 100.0
+        }
+      ]
+    }
+  ]
 }

@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-10-14T16:43:55Z",
+  "generated_at": "2026-10-15T08:01:01Z",
   "with_amounts": false,
   "n_positions": 0,
   "n_trades": 0,
-  "strategies": [],
+  "strategies": [
+    {
+      "market": "KR",
+      "strategy": "kr_contest_mega2c70_lgbm_n5",
+      "start": "2026-10-15T00:00:44Z",
+      "last": "2026-10-15T00:00:44Z",
+      "n_snapshots": 1,
+      "total_return_pct": 0.0,
+      "day_return_pct": null,
+      "cagr_pct": null
+    }
+  ],
   "periods": [],
   "strategy": {
     "KR": {
