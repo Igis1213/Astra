@@ -1,9 +1,19 @@
 {
-  "generated_at": "2026-10-15T08:01:01Z",
+  "generated_at": "2026-10-16T08:02:33Z",
   "with_amounts": false,
   "n_positions": 0,
   "n_trades": 0,
   "strategies": [
+    {
+      "market": "KR",
+      "strategy": "kr_contest_mega2c50_mom_n5",
+      "start": "2026-10-16T00:00:56Z",
+      "last": "2026-10-16T00:00:56Z",
+      "n_snapshots": 1,
+      "total_return_pct": 0.0,
+      "day_return_pct": null,
+      "cagr_pct": null
+    },
     {
       "market": "KR",
       "strategy": "kr_contest_mega2c70_lgbm_n5",
@@ -19,13 +29,13 @@
   "strategy": {
     "KR": {
       "market": "KR",
-      "champion": "kr_contest_mega2c70_lgbm_n5",
+      "champion": "kr_contest_mega2c50_mom_n5",
       "alpha": "sleeve",
-      "lookback": null,
+      "lookback": 231,
       "top_n": 5,
       "rebalance": "weekly",
       "weighting": "equal",
-      "universe_size": 200
+      "universe_size": 199
     }
   }
 }
