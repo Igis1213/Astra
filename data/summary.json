@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:02:39Z",
+  "generated_at": "2026-10-19T08:03:49Z",
   "with_amounts": false,
   "n_positions": 0,
   "n_trades": 0,
@@ -8,10 +8,10 @@
       "market": "KR",
       "strategy": "kr_contest_mega2c50_mom_n5",
       "start": "2026-10-16T00:00:56Z",
-      "last": "2026-10-16T00:00:56Z",
-      "n_snapshots": 1,
-      "total_return_pct": 0.0,
-      "day_return_pct": null,
+      "last": "2026-10-19T00:00:46Z",
+      "n_snapshots": 2,
+      "total_return_pct": -3.793,
+      "day_return_pct": -3.793,
       "cagr_pct": null
     },
     {
@@ -25,7 +25,38 @@
       "cagr_pct": null
     }
   ],
-  "periods": [],
+  "periods": [
+    {
+      "period": "1M",
+      "strategy_pct": -3.79,
+      "benchmark_pct": -4.2,
+      "excess_pp": 0.41
+    },
+    {
+      "period": "3M",
+      "strategy_pct": -3.79,
+      "benchmark_pct": -4.2,
+      "excess_pp": 0.41
+    },
+    {
+      "period": "YTD",
+      "strategy_pct": -3.79,
+      "benchmark_pct": -4.2,
+      "excess_pp": 0.41
+    },
+    {
+      "period": "1Y",
+      "strategy_pct": -3.79,
+      "benchmark_pct": -4.2,
+      "excess_pp": 0.41
+    },
+    {
+      "period": "전체",
+      "strategy_pct": -3.79,
+      "benchmark_pct": -4.2,
+      "excess_pp": 0.41
+    }
+  ],
   "strategy": {
     "KR": {
       "market": "KR",
@@ -35,7 +66,7 @@
       "top_n": 5,
       "rebalance": "weekly",
       "weighting": "equal",
-      "universe_size": 199
+      "universe_size": 198
     }
   }
 }
