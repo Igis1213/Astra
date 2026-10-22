@@ -1,7 +1,102 @@
 {
-  "rows": [],
-  "sectors": [],
-  "industries": [],
+  "rows": [
+    {
+      "symbol": "000660",
+      "entry_ts": "2026-10-16T00:01:06Z",
+      "avg_cost": 1283333.333,
+      "price": 1272000.0,
+      "unrealized_pct": -0.883,
+      "weight_pct": 39.61,
+      "name": "SK하이닉스",
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "day_return_pct": 0.079,
+      "per": 21.56,
+      "roe": 35.59,
+      "book_yield": 13.03,
+      "earnings_yield": 4.64,
+      "asset_growth": 46.93,
+      "gross_profit_asset": 33.33
+    },
+    {
+      "symbol": "005930",
+      "entry_ts": "2026-10-16T00:01:07Z",
+      "avg_cost": 214500.0,
+      "price": 220500.0,
+      "unrealized_pct": 2.797,
+      "weight_pct": 27.46,
+      "name": "삼성전자",
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "day_return_pct": 0.685,
+      "per": 28.87,
+      "roe": 10.36,
+      "book_yield": 33.43,
+      "earnings_yield": 3.46,
+      "asset_growth": 10.19,
+      "gross_profit_asset": 23.17
+    },
+    {
+      "symbol": "047040",
+      "entry_ts": "2026-10-16T00:01:11Z",
+      "avg_cost": 15070.948,
+      "price": 14900.0,
+      "unrealized_pct": -1.134,
+      "weight_pct": 11.27,
+      "name": "대우건설",
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "day_return_pct": 2.688,
+      "per": null,
+      "roe": -26.36,
+      "book_yield": 56.11,
+      "earnings_yield": -14.79,
+      "asset_growth": 5.53,
+      "gross_profit_asset": 1.78
+    },
+    {
+      "symbol": "009150",
+      "entry_ts": "2026-10-16T00:01:10Z",
+      "avg_cost": 1195000.0,
+      "price": 1188000.0,
+      "unrealized_pct": -0.586,
+      "weight_pct": 10.93,
+      "name": "삼성전기",
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "day_return_pct": 0.935,
+      "per": 121.39,
+      "roe": 7.46,
+      "book_yield": 11.04,
+      "earnings_yield": 0.82,
+      "asset_growth": 14.1,
+      "gross_profit_asset": 15.6
+    },
+    {
+      "symbol": "402340",
+      "entry_ts": "2026-10-16T00:01:13Z",
+      "avg_cost": 782083.333,
+      "price": 770000.0,
+      "unrealized_pct": -1.545,
+      "weight_pct": 10.73,
+      "name": "SK스퀘어",
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "day_return_pct": -0.645
+    }
+  ],
+  "sectors": [
+    {
+      "sector": "Unknown",
+      "weight_pct": 100.0
+    }
+  ],
+  "industries": [
+    {
+      "industry": "Unknown",
+      "weight_pct": 100.0
+    }
+  ],
   "factors": {
     "axes": []
   },

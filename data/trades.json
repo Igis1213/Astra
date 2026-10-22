@@ -1,5 +1,61 @@
 {
   "rows": [],
   "contribution": [],
-  "returns_rows": []
+  "returns_rows": [
+    {
+      "symbol": "000660",
+      "name": "SK하이닉스",
+      "sector": "Unknown",
+      "weight_pct": 39.61,
+      "avg_cost": 1283333.333,
+      "price": 1272000.0,
+      "unrealized_pct": -0.883,
+      "contribution_pct": null,
+      "entry_ts": "2026-10-16T00:01:06Z"
+    },
+    {
+      "symbol": "005930",
+      "name": "삼성전자",
+      "sector": "Unknown",
+      "weight_pct": 27.46,
+      "avg_cost": 214500.0,
+      "price": 220500.0,
+      "unrealized_pct": 2.797,
+      "contribution_pct": null,
+      "entry_ts": "2026-10-16T00:01:07Z"
+    },
+    {
+      "symbol": "047040",
+      "name": "대우건설",
+      "sector": "Unknown",
+      "weight_pct": 11.27,
+      "avg_cost": 15070.948,
+      "price": 14900.0,
+      "unrealized_pct": -1.134,
+      "contribution_pct": null,
+      "entry_ts": "2026-10-16T00:01:11Z"
+    },
+    {
+      "symbol": "009150",
+      "name": "삼성전기",
+      "sector": "Unknown",
+      "weight_pct": 10.93,
+      "avg_cost": 1195000.0,
+      "price": 1188000.0,
+      "unrealized_pct": -0.586,
+      "contribution_pct": null,
+      "entry_ts": "2026-10-16T00:01:10Z"
+    },
+    {
+      "symbol": "402340",
+      "name": "SK스퀘어",
+      "sector": "Unknown",
+      "weight_pct": 10.73,
+      "avg_cost": 782083.333,
+      "price": 770000.0,
+      "unrealized_pct": -1.545,
+      "contribution_pct": null,
+      "entry_ts": "2026-10-16T00:01:13Z"
+    }
+  ]
 }
